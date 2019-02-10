@@ -21,7 +21,7 @@ class Footer extends Component {
                         <p>Contacto</p>
                     </div>
                     <div>
-                        <h3>Úbicación</h3>
+                        <h3>Ubicación</h3>
                         <p>Jalapa #100, Roma Norte</p>
                         <p>(+52) 775 760 9276</p>
                     </div>

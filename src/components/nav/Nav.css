@@ -9,8 +9,12 @@
     justify-content: space-between;
     padding: 0 3%;
     box-sizing: border-box;
-    color:#414141;
+    color:#414141 !important;
     z-index: 999;
+}
+.menu h1{
+    font-size:24px;
+    margin-bottom: 0;
 }
 .fl{
     display: flex;
@@ -41,4 +45,18 @@
 }
 .navbar a{
     color:inherit;
+}
+
+
+@media(max-width: 435px){
+    .menu h1{
+        font-size:1em ;
+    }
+
+    .menu p{
+        display: none;
+    }
+    .navbar{
+        margin-top: 20px;
+    }
 }

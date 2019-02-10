@@ -22,7 +22,6 @@ class HomeContainer extends Component {
         script.async = true;
 
         const text = document.createTextNode(`
-            alert('chet')
             window.fbAsyncInit = function() {
             FB.init({
                 xfbml            : true,

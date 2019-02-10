@@ -9,7 +9,7 @@ class Servicios extends Component {
 
     render() {
         return (
-            <div className="services fl">
+            <div className="services fl" style={{flexWrap:"wrap"}}>
                 <div className="services-img">
 
                 </div>
