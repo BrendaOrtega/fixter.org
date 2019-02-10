@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color:#222222;
+    color: #cccccc;
+    padding: 2% 0 0 0;
+
+}
+.footer-box{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-box div{
+    width: 250px;
+    flex-grow: 1;
+    padding: 0 4%;
+}
+
+.copy{
+    background-color: #191919;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

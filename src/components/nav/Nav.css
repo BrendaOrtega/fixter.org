@@ -1,0 +1,44 @@
+.navbar{
+    width: 96%;
+    margin-left: 2%;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    box-sizing: border-box;
+    color:#414141;
+    z-index: 999;
+}
+.fl{
+    display: flex;
+    align-items: center;
+}
+.division{
+    height: 50px;
+    width: 1px;
+    background-color: #ebebeb;
+    border: none;
+    margin: 0 0px 0 20px;
+}
+.pestanas p{
+    margin: 0 20px;
+}
+.redes span{
+    margin: 0 10px;
+}
+.pestanas p:hover {
+    color:#f79b36;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.redes span:hover{
+    color:#f79b36;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.navbar a{
+    color:inherit;
+}
