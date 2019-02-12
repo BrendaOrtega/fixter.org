@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-
+import {Link} from 'react-router-dom';
 
 class Slide extends Component {
 
@@ -10,7 +10,9 @@ class Slide extends Component {
                 <div className="box-slogan">
                     <div>
                         <h2 className="slogan">Impulsa el crecimiento de tu empresa con nosotros</h2>
-                        <button className="btn-c">Cotizar</button>
+                        <Link to="/contacto">
+                            <button className="btn-c">Cotizar</button>
+                        </Link>
                     </div>
                 </div>
             </div>

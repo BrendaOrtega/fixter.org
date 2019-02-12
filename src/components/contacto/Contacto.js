@@ -13,39 +13,38 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
                 <h2>
                     Contáctanos
                 </h2>
-                <p>Tienes alguna duda? Quieres cotizar un producto? Completa el formulario</p>
+                <p>¿Tienes alguna duda? ¿Quieres cotizar un producto? Completa el formulario</p>
                 <div className="container">
-                    <div className={ ' row '}>
-                        <div >
-                            <h3 >Estamos ubicados en...</h3>
-                            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.9910732526796!2d-98.80388768503683!3d20.134420023080985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a125b9171db7%3A0xf0ef93b8ffdce18c!2sFixTeR!5e0!3m2!1ses-419!2smx!4v1492123614514" allowFullScreen></iframe>
+                        <div className="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.7137344550645!2d-99.16168661192029!3d19.418672699176746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff64fd93e671%3A0xc40af0559e2c5381!2sFixter+Software+Development!5e0!3m2!1ses-419!2smx!4v1549991728751"
+                                frameBorder="0" style={{border:0}} allowFullScreen></iframe>
                         </div>
-                        <div >
-                            <h3>Si deseas más información, completa el formulario</h3>
+                        <div className="form">
                             <form method="post" name="sentMessage" action="" onSubmit={onSave}>
                                 <div>
-                                    <div >
+                                    <div className="inp">
                                         <i className="fa fa-user" aria-hidden="true"></i>
                                         <input value={name} onChange={onChangeMessage} type="text" name="nombre"  placeholder="Nombre" id="name" required data-validation-required-message="Porfavor ingresa tu nombre"/>
-                                        <p className="help-block text-danger"></p></div>
+                                        </div>
                                 </div>
                                 <div >
-                                    <div >
+                                    <div className="inp">
                                         <i className="fa fa-envelope" aria-hidden="true"></i>
                                         <input value={email} onChange={onChangeMessage} type="email" name="email"  placeholder="Email" id="email" required data-validation-required-message="Porfavor ingresa tu e-mail"/>
                                         <p className="help-block text-danger"></p></div>
                                 </div>
                                 <div >
-                                    <div >
+                                    <div className="inp">
                                         <i className="fa fa-phone" aria-hidden="true"></i>
 
                                         <input value={tel} onChange={onChangeMessage}  type="tel" name="tel" placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
                                         <p className="help-block text-danger"></p></div>
                                 </div>
-                                <div >
-                                    <p>Desea recibir información de nuestros servicios:</p>
-                                    <div className="checkbox">
-                                        <label>
+                               {/* <div >
+                                    <p style={{marginBottom:"0px"}}>Desea recibir información de nuestros servicios:</p>
+                                    <div className="checkbox" style={{display:"flex;"}}>
+                                        <label >
                                             <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={software} name="soft" />
                                             Software
                                         </label>
@@ -65,26 +64,26 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
                                     <div className="checkbox">
                                         <label>
                                             <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={host} name="host"/>
-                                            <p>Hosting y más</p>
+                                            Hosting y más
                                         </label>
                                     </div>
-                                </div>
+                                </div>*/}
                                 <div >
-                                    <div >
-                                        <div >
-                                            <i className="fa fa-commenting" aria-hidden="true"></i></div>
+                                        <div className="inp">
+                                            <i className="fa fa-commenting" aria-hidden="true"></i>
+                                            <textarea value={msj} onChange={onChangeMessage}  type="text" name="msj"  placeholder="Mensaje" id="message" required data-validation-required-message="Porfavor ingresa tu mensaje"/>
 
-                                        <textarea value={msj} onChange={onChangeMessage}  type="text" name="msj"  placeholder="Mensaje" id="message" required data-validation-required-message="Porfavor ingresa tu mensaje"/>
-                                        <p className="help-block text-danger"></p></div>
-                                </div>
-                                <div >
-                                    <button >Enviar</button>
+                                        </div>
+
+                                        </div>
+                                <div style={{textAlign:"center"}}>
+                                    <button  className="btn-c">Enviar</button>
                                     <p className="help-block text-danger"></p>
                                 </div>
 
                             </form>
                         </div>
-                    </div>
+
                 </div>
             </div>
 

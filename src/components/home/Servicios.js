@@ -15,7 +15,10 @@ class Servicios extends Component {
                 </div>
                 <div className="services-text">
                     <h2>Servicios</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>
+                        Somos amantes de la innovación y la mejora continúa por lo que ofrecemos un servicio completo en cuanto
+                        a tecnología se refiere:
+                    </p>
                     <br/>
                     <div className="fl" style={{flexWrap:"wrap"}}>
                         <div className="service">
@@ -25,8 +28,8 @@ class Servicios extends Component {
                         </div>
                         <div className="service">
                             <img src={chalk} alt=""/>
-                            <h3>Diseno web</h3>
-                            <p>Diseno de páginas web para startups</p>
+                            <h3>Diseño web</h3>
+                            <p>Diseño de páginas y apps web </p>
                         </div>
                         <div className="service">
                             <img style={{height:"50px", width:"30px"}} src={movil} alt=""/>

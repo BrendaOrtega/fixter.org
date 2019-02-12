@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
+import {Link} from 'react-router-dom';
 
 class Footer extends Component {
 
@@ -14,14 +15,28 @@ class Footer extends Component {
                             Creamos para ti, desde páginas web hasta videojuegos; siempre con las herramientas más modernas, seguras y escalables.
                         </p>
                     </div>
-                    <div>
-                        <h3>Ayuda</h3>
+                    <div className="redes">
+                        <h3>Redes</h3>
+                        <a href="https://www.facebook.com/Fixterorg-1333568760053068/" target="_blank">
+                            <FontAwesome name="facebook"/>
+                        </a>
+                        <a href="https://wa.me/5217714348038" target="_blank">
+                            <FontAwesome name="whatsapp"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/28982942/admin/" target="_blank">
+                            <FontAwesome name="linkedin"/>
+                        </a>
+                        <a href="mailto:brenda@fixter.org" >
+                            <FontAwesome name="envelope"/>
+                        </a>
+
+                        {/*
                         <p>Preguntas Frecuentes</p>
-                        <p>Contacto</p>
+*/}
                     </div>
                     <div>
                         <h3>Ubicación</h3>
-                        <p>Jalapa #100, Roma Norte</p>
+                        <p>Jalapa #100, Roma Norte, CDMX</p>
                         <p>(+52) 775 760 9276</p>
                     </div>
                 </div>

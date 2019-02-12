@@ -39,7 +39,7 @@ body{
     cursor: pointer;
     margin: 25px auto;
     font-family: 'OpenSansBold', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 1px;
     box-shadow: inset 0 0 0 0 #d87509;
     -webkit-transition: all ease 0.8s;
@@ -281,11 +281,22 @@ GROWTH*/
     justify-content: space-between;
     margin-top: 50px;
 }
+.medios a{
+    width: 200px;
+    flex-grow: 1;
+    height: auto;
+
+}
 .img{
     width: 200px;
-    border-right: 1px solid #ccc;
+
+}
+.line{
     border-bottom: 1px solid #ccc;
-    flex-grow: 1;
+    border-right: 1px solid #ccc;
+}
+.lin{
+    border-right: 1px solid #ccc;
 }
 .tp{
     width: 200px;

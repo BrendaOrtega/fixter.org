@@ -29,3 +29,9 @@
     justify-content: center;
     margin-top: 20px;
 }
+.footer .redes span{
+    color:white;
+}
+.footer .redes{
+    min-height: 150px;
+}

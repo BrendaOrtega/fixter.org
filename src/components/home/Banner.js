@@ -9,12 +9,11 @@ class Banner extends Component {
             <div className="banner">
                 <div className="cover-orange">
                     <div>
-                        <h3>We have the expertise to build products and
-                            new capabilities from the ground up
+                        <h3>Tenemos la experiencia para diseñar y desarrollar productos digitales con las mejores herramientas
                         </h3>
-                        <p>Wizeline source the expertise you need, including initial discovery, ideation, roadmapping,
-                            design, and development.</p>
-                        <br/>
+                        <p>Seremos parte de tu proyecto, desde el descubrimiento inicial, la ideación y la arquitectura, hasta el diseño y el desarrollo
+                 </p>
+
                         <button className="btn-c">Cotizar</button>
                     </div>
                 </div>

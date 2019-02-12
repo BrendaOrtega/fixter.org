@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Nosotros.css';
 import FontAwesome from 'react-fontawesome';
+import milenio from "../../assets/milenio-01.svg";
+import gob from "../../assets/not1-01.svg";
+import independiente from "../../assets/indep-01.svg";
 
 class Nosotros extends Component {
     componentDidMount () {
@@ -19,7 +22,7 @@ class Nosotros extends Component {
                         que cumplan sus expectativas y cubran sus necesidades.
 
                     </p>
-                    <p>En Fixter buscamos ofrecer productos digitales de alta calidad, que cubran
+                    <p>En Fixter buscamos ofrecer productos digitales de alto nivel, que cubran
                     altos estándares de calidad y eficiencia. Por lo que somos amantes de la innovación y la mejora continúa.
                     </p>
 
@@ -85,14 +88,58 @@ class Nosotros extends Component {
                     </div>
                     <hr/>
                     <h2>Algunos de nuestros clientes</h2>
-                    <div className="fl clientes">
+                    <div className=" clientes ">
+                        <div className="nn fl">
                         <img src="http://www.retozapopan.com.mx/img/LogoRetoZapopan.svg" alt="reto-zapopan"/>
                         <img src="https://seeklogo.com/images/G/gobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png" alt="gobierno-hidalgo"/>
                         <img src="https://arangorestaurante.com/static/media/arango_logo.9209e5d7.png" alt="arango"/>
                         <img src="http://concamin.mx/wp-content/uploads/2015/08/header-logo-concamin.png" alt="concamin"/>
                         <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/05/logo.png" alt="allende"/>
                         <img src="https://firebasemx.com/static/media/firemx.018fbe39.png" alt="firebase"/></div>
+
+                <div className="uk-position-relative uk-visible-toggle uk-light movil" tabIndex="-1" uk-slider="center: true, autoplay:true">
+
+                    <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel">
+                                <img src="http://www.retozapopan.com.mx/img/LogoRetoZapopan.svg" alt="reto-zapopan"/>
+
+                            </div>
+                        </li>
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel">
+                                <img src="https://seeklogo.com/images/G/gobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png" alt="gobierno-hidalgo"/>
+
+                            </div>
+                        </li>
+                        <li className="uk-width-3-4">
+                            <div>
+                                <img src="https://arangorestaurante.com/static/media/arango_logo.9209e5d7.png" alt="arango"/>
+
+                            </div>
+                        </li>
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel">
+                                <img src="http://concamin.mx/wp-content/uploads/2015/08/header-logo-concamin.png" alt="concamin"/>
+
+                            </div>
+                        </li>
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel">
+                                <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/05/logo.png" alt="allende"/>
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="#"
+                       uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                       uk-slider-item="next"></a>
                 </div>
+                </div></div>
             </div>
         );
     }
