@@ -11,8 +11,7 @@ class Footer extends Component {
                     <div>
                         <h3>Fixter.org</h3>
                         <p>Empresa dedicada al desarrollo de software multiplataforma.
-                            Creamos para ti, desde páginas web, apps web, aplicaciones móviles
-                            y videojuegos; siempre con las herramientas más modernas, seguras y escalables.
+                            Creamos para ti, desde páginas web hasta videojuegos; siempre con las herramientas más modernas, seguras y escalables.
                         </p>
                     </div>
                     <div>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Nav.css';
+import {Link} from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
+import logo from '../../assets/FIXTER_ORG_BORDE-01.png';
 
 class Nav extends Component {
 
@@ -8,12 +10,20 @@ class Nav extends Component {
         return (
             <div className="navbar">
                 <div className="menu fl">
-                    <h1>A diferent design</h1>
+                    <Link to="/">
+                        <img src={logo} alt="logo"/>
+                    </Link>
                     <hr className="division"/>
                     <div className="pestanas fl">
-                        <p>Nosotros</p>
-                        <p>Capacitación</p>
-                        <p>Contacto</p>
+                        <Link to="/nosotros">
+                            <p>Nosotros</p>
+                        </Link>
+                        <Link to="capacitacion">
+                            <p>Capacitación</p>
+                        </Link>
+                        <Link to="contacto">
+                            <p>Contacto</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="redes fl">

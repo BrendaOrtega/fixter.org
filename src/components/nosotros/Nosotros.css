@@ -1,0 +1,68 @@
+.nosotros{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../../assets/bgImage6.png");
+    background-size: cover;
+    background-position: top;
+
+}
+.ns{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.fl-team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box_team{
+    width: 250px;
+    flex-grow: 1;
+    margin: 20px;
+    text-align: center;
+}
+.circle{
+    width:150px ;
+    height: 150px;
+    border-radius: 75px;
+    background-position: center;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box_team span{
+    margin: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.box_team span:hover{
+    color: #f79b36;
+}
+
+.clientes{
+    filter: grayscale(100%);
+    opacity: .8;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.clientes img{
+    height: 80px;
+}
+.brenda{
+
+    background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/20228641_1351770944918290_3546740758961337379_n.jpg?_nc_cat=100&_nc_ht=scontent.fmex6-1.fna&oh=e848d06e839b094869e9f36b99367564&oe=5CEDD909");
+
+}
+.bliss{
+    background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/22528060_10214565152460463_5439731482310626598_n.jpg?_nc_cat=110&_nc_ht=scontent.fmex6-1.fna&oh=0db1e16a488171ad248b750f020c2af9&oe=5CEA3080");
+}
+.oscar{
+    background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/42929645_699409803773903_2563934861114998784_o.jpg?_nc_cat=100&_nc_ht=scontent.fmex6-1.fna&oh=e378f28b849aad3263a67cb47424cd8d&oe=5CB34E1C");
+}
+.david{
+    background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/15844363_1325158800932813_5987274311608809372_o.jpg?_nc_cat=111&_nc_ht=scontent.fmex6-1.fna&oh=a973b662700cf531679423cf6b00a520&oe=5CB2E42D");
+}
+.os{
+    background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/18891870_1543998225611670_8032322982945740932_o.jpg?_nc_cat=103&_nc_ht=scontent.fmex6-1.fna&oh=5441f9f55baea77202a44742ecaae813&oe=5CF1A305");
+}

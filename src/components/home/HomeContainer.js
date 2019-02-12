@@ -10,8 +10,9 @@ import Growth from "./Growth";
 
 
 class HomeContainer extends Component {
+    componentDidMount () {
+        window.scroll(0, 0)
 
-    componentDidMount() {
         //console.log('mijo')
         let div = document.createElement('div')
         div.id = 'fb-root'
@@ -58,7 +59,6 @@ class HomeContainer extends Component {
         return (
             <div>
 
-                <Nav/>
                 <Slide/>
                 <About/>
                 <Servicios/>
