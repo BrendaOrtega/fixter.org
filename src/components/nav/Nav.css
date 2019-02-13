@@ -64,7 +64,8 @@
 @media(max-width: 435px){
     .navbar{
         padding: 0% 3%;
-        
+        justify-content: center;
+
     }
     .menu h1{
         font-size:1em ;
@@ -73,7 +74,6 @@
         width: 50px;
         height: auto;
     }
-
     .navbar .redes span{
         display: none;
     }
@@ -85,4 +85,14 @@
         margin: 0 10px;
     }
 
+}
+@media(max-width: 320px){
+    .navbar{
+        padding: 0% 1%;
+        justify-content: center;
+    }
+    .menu p{
+        font-size: 12px;
+        margin: 0 5px;
+    }
 }

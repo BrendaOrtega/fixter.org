@@ -308,6 +308,18 @@ GROWTH*/
     display: none;
 }
 
+@media(max-width: 768px) {
+    .web{
+        display: none;
+    }
+    .movil{
+        display: inherit;
+    }
+    .services-img{
+        min-height: 900px;
+    }
+}
+
 @media(max-width: 435px){
     .box-slogan h2{
         font-size: 40px;
@@ -318,6 +330,7 @@ GROWTH*/
     }
     .services-img{
         min-height: 200px;
+        height: 100%;
     }
     .banner h3{
         font-size: 24px;
@@ -325,15 +338,11 @@ GROWTH*/
     .services-text{
         text-align: center;
     }
-    .movil{
-        display: inherit;
-        opacity: .5;
-    }
+
     .img{
         border-right: none;
         border-bottom: none;
      }
-    .web{
-        display: none;
-    }
+
 }
+
