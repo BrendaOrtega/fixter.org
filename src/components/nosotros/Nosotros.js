@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './Nosotros.css';
 import FontAwesome from 'react-fontawesome';
-import milenio from "../../assets/milenio-01.svg";
-import gob from "../../assets/not1-01.svg";
-import independiente from "../../assets/indep-01.svg";
 
 class Nosotros extends Component {
     componentDidMount () {
@@ -127,16 +124,12 @@ class Nosotros extends Component {
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
                                 <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/05/logo.png" alt="allende"/>
-
                             </div>
                         </li>
-
-
                     </ul>
-
-                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="#"
+                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="/"
                        uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="/" uk-slidenav-next
                        uk-slider-item="next"></a>
                 </div>
                 </div></div>

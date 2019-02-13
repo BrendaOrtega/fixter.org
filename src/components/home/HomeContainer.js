@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Slide from "./Slide";
-import Nav from "../nav/Nav";
 import About from "./About";
 import Servicios from "./Servicios";
 import Projects from "./Projects";

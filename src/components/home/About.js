@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Home.css';
-import FontAwesome from 'react-fontawesome';
 
 class About extends Component {
 

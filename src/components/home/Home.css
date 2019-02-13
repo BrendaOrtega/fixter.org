@@ -291,16 +291,9 @@ GROWTH*/
     width: 200px;
 
 }
-.line{
-    border-bottom: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-}
-.lin{
-    border-right: 1px solid #ccc;
-}
+
 .tp{
     width: 200px;
-    border-right: 1px solid #ccc;
     flex-grow: 1;
 }
 .movil{

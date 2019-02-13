@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
-import {Link} from 'react-router-dom';
 
 class Footer extends Component {
 
@@ -17,13 +16,13 @@ class Footer extends Component {
                     </div>
                     <div className="redes">
                         <h3>Redes</h3>
-                        <a href="https://www.facebook.com/Fixterorg-1333568760053068/" target="_blank">
+                        <a href="https://www.facebook.com/Fixterorg-1333568760053068/" target={"blank"} >
                             <FontAwesome name="facebook"/>
                         </a>
-                        <a href="https://wa.me/5217714348038" target="_blank">
+                        <a href="https://wa.me/5217714348038" target={"blank"}>
                             <FontAwesome name="whatsapp"/>
                         </a>
-                        <a href="https://www.linkedin.com/company/28982942/admin/" target="_blank">
+                        <a href="https://www.linkedin.com/company/28982942/admin/" target={"blank"}>
                             <FontAwesome name="linkedin"/>
                         </a>
                         <a href="mailto:brenda@fixter.org" >

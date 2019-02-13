@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Capacitacion.css';
-import FontAwesome from "../nosotros/Nosotros";
 
 
 class Capacitacion extends Component {
