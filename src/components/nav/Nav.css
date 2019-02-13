@@ -59,23 +59,21 @@
     color:inherit;
 }
 
+@media(max-width: 655px) {
+    .navbar .redes span{
+        display: none;
+    }
 
-
+}
 @media(max-width: 435px){
     .navbar{
         padding: 0% 3%;
         justify-content: center;
+    }
 
-    }
-    .menu h1{
-        font-size:1em ;
-    }
     .navbar img{
         width: 50px;
         height: auto;
-    }
-    .navbar .redes span{
-        display: none;
     }
     .navbar{
         margin-top: 20px;

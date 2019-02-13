@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7faa1fb7-8f6c-4477-b70a-20dae36cbc56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="187">
               <caret line="318" column="22" selection-start-line="318" selection-start-column="22" selection-end-line="318" selection-end-column="22" />
             </state>
           </provider>
@@ -89,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -176,8 +175,8 @@
         <option value="$PROJECT_DIR$/src/components/contacto/Contacto.css" />
         <option value="$PROJECT_DIR$/src/components/nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" />
-        <option value="$PROJECT_DIR$/src/components/nav/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/home/Home.css" />
+        <option value="$PROJECT_DIR$/src/components/nav/Nav.css" />
       </list>
     </option>
   </component>
@@ -310,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549752033633</updated>
-      <workItem from="1549752035171" duration="34877000" />
+      <workItem from="1549752035171" duration="35176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34877000" />
+    <option name="totallyTimeSpent" value="35176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="28" width="1178" height="777" extended-state="0" />
@@ -579,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home/Servicios.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -598,8 +590,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home/Home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="187">
           <caret line="318" column="22" selection-start-line="318" selection-start-column="22" selection-end-line="318" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
         </state>
       </provider>
     </entry>
