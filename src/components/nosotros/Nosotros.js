@@ -86,7 +86,7 @@ class Nosotros extends Component {
                     <hr/>
                     <h2>Algunos de nuestros clientes</h2>
                     <div className=" clientes ">
-                        <div className="nn fl">
+                        <div className="nn">
                         <img src="http://www.retozapopan.com.mx/img/LogoRetoZapopan.svg" alt="reto-zapopan"/>
                         <img src="https://seeklogo.com/images/G/gobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png" alt="gobierno-hidalgo"/>
                         <img src="https://arangorestaurante.com/static/media/arango_logo.9209e5d7.png" alt="arango"/>
