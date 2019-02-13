@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Capacitacion.css';
-
+import {Link} from 'react-router-dom';
 
 class Capacitacion extends Component {
 
@@ -19,7 +19,9 @@ class Capacitacion extends Component {
                     Firebase, ReacJs, AngularJs, VueJs, Swift, Android, React Native, Native Script, y más.</p>
                     <p>Contactanos, cuentanos lo que necesitas y te mandaremos un programa de capacitación adoc a tus necesidades.</p>
                     <br/>
-                    <span className="info">Contactar → </span>
+                    <Link to="/contacto" style={{textDecoration:"none"}}>
+                        <span className="info">Contactar → </span>
+                    </Link>
                 </div>
             </div>
         );
