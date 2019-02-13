@@ -59,9 +59,16 @@
     color:inherit;
 }
 
-@media(max-width: 655px) {
+@media(max-width: 700px) {
     .navbar .redes span{
         display: none;
+    }
+    .navbar img{
+        width: 70px;
+        height: auto;
+    }
+    .navbar{
+        margin-top: 20px;
     }
 
 }

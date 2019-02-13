@@ -311,6 +311,9 @@ GROWTH*/
     .services-img{
         min-height: 900px;
     }
+    .box-slogan h2{
+        font-size: 50px;
+    }
 }
 
 @media(max-width: 435px){
