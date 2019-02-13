@@ -57,7 +57,6 @@ class HomeContainer extends Component {
     render() {
         return (
             <div>
-
                 <Slide/>
                 <About/>
                 <Servicios/>
