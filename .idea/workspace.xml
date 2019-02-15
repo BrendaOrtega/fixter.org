@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7faa1fb7-8f6c-4477-b70a-20dae36cbc56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/2b621f69094333.5b7df64ea4626.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/2b621f69094333.5b7df64ea4626.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/95319469094357.5b7dffae8b541.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/95319469094357.5b7dffae8b541.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,17 +55,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/laptop-code-solid.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/man-people-space-desk.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -158,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="77" />
     <option name="y" value="23" />
     <option name="width" value="1137" />
@@ -268,15 +266,15 @@
       <updated>1549752033633</updated>
       <workItem from="1549752035171" duration="39128000" />
       <workItem from="1550125968719" duration="662000" />
-      <workItem from="1550198264081" duration="1313000" />
+      <workItem from="1550198264081" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41103000" />
+    <option name="totallyTimeSpent" value="41370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="23" width="1137" height="777" extended-state="1" />
+    <frame x="77" y="23" width="1137" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2715054" />
@@ -598,9 +596,12 @@
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/man-people-space-desk.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
