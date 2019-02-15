@@ -46,7 +46,6 @@ body{
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
 
-
 }
 
 .btn-c:hover{
@@ -72,6 +71,7 @@ ABOUT*/
 }
 .info{
     color: #f79b36;
+    font-weight: bold;
 }
 
 /*
@@ -82,6 +82,7 @@ SERVICIOS*/
     height:auto;
     min-height: 650px;
     background-color: #f4f4f4;
+
 }
 
 .services-img{
@@ -102,7 +103,7 @@ SERVICIOS*/
 
 .services p{
     font-size: 18px;
-    color:#777;
+    color:#4A4A4A;
 }
 .service{
     width: 220px;
@@ -115,13 +116,14 @@ SERVICIOS*/
 .service p{
     font-size: 16px;
     margin-top: 0;
-    color:#777;
+    color:#4A4A4A;
 
 }
 .service h3{
     font-size: 18px;
     margin-bottom: 2px;
     color:#414141;
+    font-weight: bolder;
 
 }
 

@@ -10,7 +10,7 @@ class Nav extends Component {
         return (
             <div className="navbar">
                 <div className="menu fl">
-                    <Link to="/">
+                    <Link to="/" >
                         <img src={logo} alt="logo"/>
                     </Link>
                     <hr className="division"/>
@@ -27,16 +27,16 @@ class Nav extends Component {
                     </div>
                 </div>
                 <div className="redes fl">
-                    <a href="https://www.facebook.com/Fixterorg-1333568760053068/" target={"blank"}>
+                    <a href="https://www.facebook.com/Fixterorg-1333568760053068/" aria-label="Facebook" target={"blank"}>
                         <FontAwesome name="facebook"/>
                     </a>
-                    <a href="https://wa.me/5217714348038" target={"blank"}>
+                    <a href="https://wa.me/5217714348038" aria-label="Whats app" target={"blank"}>
                         <FontAwesome name="whatsapp"/>
                     </a>
-                    <a href="https://www.linkedin.com/company/28982942/admin/" target={"blank"}>
+                    <a href="https://www.linkedin.com/company/28982942/admin/" aria-label="Linkedin" target={"blank"}>
                         <FontAwesome name="linkedin"/>
                     </a>
-                    <a href="mailto:brenda@fixter.org" >
+                    <a href="mailto:brenda@fixter.org" aria-label="Mail" >
                         <FontAwesome name="envelope"/>
                     </a>
 

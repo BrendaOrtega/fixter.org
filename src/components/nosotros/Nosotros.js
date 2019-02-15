@@ -127,9 +127,9 @@ class Nosotros extends Component {
                             </div>
                         </li>
                     </ul>
-                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="/"
+                    <a aria-label="previo"  className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="/"
                        uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="/" uk-slidenav-next
+                    <a aria-label="next"  className="uk-position-center-right uk-position-small uk-hidden-hover" href="/" uk-slidenav-next
                        uk-slider-item="next"></a>
                 </div>
                 </div></div>
