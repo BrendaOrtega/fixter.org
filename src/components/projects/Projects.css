@@ -145,3 +145,11 @@
     color:#414141;
     font-weight: bolder;
 }
+@media(max-width: 768px){
+    .back{
+        height: auto;
+    }
+    .box-projects{
+        top:50px;
+    }
+}
