@@ -48,9 +48,11 @@
 }
 .inp textarea{
     padding-top: 20px;
+    font-family: Arial;
 }
 .checkbox{
-    font-size: 10px;
+    font-size: 14px;
+    margin: 10px 5px;
 }
 @media(max-width: 435px){
     .map iframe{

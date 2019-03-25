@@ -38,9 +38,12 @@ class Nosotros extends Component {
                             </div>
                             <h4>Brenda Ortega</h4>
                             <p>Co-Founder & CEO</p>
-
-                            <FontAwesome name="facebook-square" />
-                            <FontAwesome name="linkedin"/>
+                            <a href="https://www.facebook.com/brenda.ortega.7121">
+                                <FontAwesome name="facebook-square" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/brenda-ort/" target="blank">
+                                <FontAwesome name="linkedin"/>
+                            </a>
                         </div>
                         <div className="box_team">
                             <div className="circle bliss">
@@ -48,9 +51,12 @@ class Nosotros extends Component {
                             </div>
                             <h4>Héctor Bliss</h4>
                             <p>Co-Founder & CTO</p>
-
-                            <FontAwesome name="facebook-square" />
-                            <FontAwesome name="linkedin"/>
+                            <a href="https://www.facebook.com/hector.bliss">
+                                <FontAwesome name="facebook-square" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/hectorbliss/" target="blank">
+                                <FontAwesome name="linkedin"/>
+                            </a>
                         </div>
                         <div className="box_team">
                             <div className="circle oscar">
@@ -58,9 +64,10 @@ class Nosotros extends Component {
                             </div>
                             <h4>Oscar Villeda</h4>
                             <p>CMO</p>
-
-                            <FontAwesome name="facebook-square" />
-                            <FontAwesome name="linkedin"/>
+                                <FontAwesome name="facebook-square" />
+                            <a href="https://www.linkedin.com/in/hectorbliss/" target="blank">
+                                <FontAwesome name="linkedin"/>
+                            </a>
                         </div>
                         <div className="box_team">
                             <div className="circle david">
@@ -68,9 +75,12 @@ class Nosotros extends Component {
                             </div>
                             <h4>David Zavala</h4>
                             <p>FullStack Developer</p>
-
-                            <FontAwesome name="facebook-square" />
-                            <FontAwesome name="linkedin"/>
+                            <a href="https://www.facebook.com/david.pzmck">
+                                <FontAwesome name="facebook-square" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/david-zavala-bartolome/" target="blank">
+                                <FontAwesome name="linkedin"/>
+                            </a>
                         </div>
                         <div className="box_team">
                             <div className="circle os">
@@ -78,11 +88,15 @@ class Nosotros extends Component {
                             </div>
                             <h4>Oswaldo Martinez</h4>
                             <p>FullStack Developer</p>
-
-                            <FontAwesome name="facebook-square" />
-                            <FontAwesome name="linkedin"/>
+                            <a href="https://www.facebook.com/oswwaldom">
+                                <FontAwesome name="facebook-square" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/oswaldinho24k/" target="blank">
+                                <FontAwesome name="linkedin"/>
+                            </a>
                         </div>
                     </div>
+                    <br/>
                     <hr/>
                     <h2>Algunos de nuestros clientes</h2>
                     <div className=" clientes ">

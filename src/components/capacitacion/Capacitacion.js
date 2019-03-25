@@ -17,7 +17,7 @@ class Capacitacion extends Component {
                     <h2>¿Quieres capacitar a tu equipo?</h2>
                     <p>Contamos con capacitación personalizada para empresas y startups en diversas tecnologías como: NodeJs, Python, Laravel,
                     Firebase, ReacJs, AngularJs, VueJs, Swift, Android, React Native, Native Script, y más.</p>
-                    <p>Contactanos, cuentanos lo que necesitas y te mandaremos un programa de capacitación adoc a tus necesidades.</p>
+                    <p>Contáctanos, cuentanos lo que necesitas y te mandaremos un programa de capacitación adecuado a tus necesidades.</p>
                     <br/>
                     <Link to="/contacto" style={{textDecoration:"none"}}>
                         <span className="info">Contactar → </span>

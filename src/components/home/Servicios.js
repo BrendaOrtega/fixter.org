@@ -38,10 +38,9 @@ class Servicios extends Component {
                         </div>
                         <div className="service">
                             <img src={host} alt=""/>
-                            <h3>Hosting y dominios</h3>
-                            <p>Hosting, respaldos, correos y más.</p>
+                            <h3>UX / UI</h3>
+                            <p>Diseño UX y prototipado.</p>
                         </div>
-
                     </div>
                 </div>
             </div>

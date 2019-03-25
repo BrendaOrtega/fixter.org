@@ -6,6 +6,11 @@
     background-position: top;
 
 }
+.nosotros a{
+    color: inherit !important;
+    text-decoration: none !important;
+
+}
 .ns{
     width: 80%;
     margin: 100px auto;
@@ -35,6 +40,7 @@
     margin: 5px;
     cursor: pointer;
     transition: all 1s ease;
+    color: #666666;
 }
 .box_team span:hover{
     color: #f79b36;
@@ -52,20 +58,33 @@
 .brenda{
     filter: grayscale(90%);
     background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/20228641_1351770944918290_3546740758961337379_n.jpg?_nc_cat=100&_nc_ht=scontent.fmex6-1.fna&oh=e848d06e839b094869e9f36b99367564&oe=5CEDD909");
+    transition: all 1s ease;
+}
+
+.brenda:hover, .bliss:hover, .oscar:hover, .david:hover, .os:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
 
 }
 .bliss{
     filter: grayscale(90%);
+    transition: all 1s ease;
 
     background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/22528060_10214565152460463_5439731482310626598_n.jpg?_nc_cat=110&_nc_ht=scontent.fmex6-1.fna&oh=0db1e16a488171ad248b750f020c2af9&oe=5CEA3080");
 }
 .oscar{
+    transition: all 1s ease;
+
     background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/42929645_699409803773903_2563934861114998784_o.jpg?_nc_cat=100&_nc_ht=scontent.fmex6-1.fna&oh=e378f28b849aad3263a67cb47424cd8d&oe=5CB34E1C");
 }
 .david{
+    transition: all 1s ease;
+
     background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/15844363_1325158800932813_5987274311608809372_o.jpg?_nc_cat=111&_nc_ht=scontent.fmex6-1.fna&oh=a973b662700cf531679423cf6b00a520&oe=5CB2E42D");
 }
 .os{
+    transition: all 1s ease;
+
     filter: grayscale(90%);
 
     background-image: url("https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/18891870_1543998225611670_8032322982945740932_o.jpg?_nc_cat=103&_nc_ht=scontent.fmex6-1.fna&oh=5441f9f55baea77202a44742ecaae813&oe=5CF1A305");

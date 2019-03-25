@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import FontAwesome from 'react-fontawesome';
+import {Link} from 'react-router-dom';
 
 class Projects extends Component {
 
@@ -10,44 +11,54 @@ class Projects extends Component {
                 <h2>Proyectos</h2>
                 <div className="projects-fl">
                     <div className="arango">
-                        <div className="cover">
-                            <div>
-                                <h3>ARANGO <br/> RESTAURANTE</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/arango">
+                            <div className="cover">
+                                <div>
+                                    <h3>ARANGO <br/> RESTAURANTE</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="allende">
-                        <div className="cover">
-                            <div>
-                                <h3>CERVECERÍA <br/> ALLENDE</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/allende">
+                            <div className="cover">
+                                <div>
+                                    <h3>CERVECERÍA <br/> ALLENDE</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="concamin">
-                        <div className="cover">
-                            <div>
-                                <h3>CONCAMIN</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/concamin">
+                            <div className="cover">
+                                <div>
+                                    <h3>CONCAMIN</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="blog">
-                        <div className="cover">
-                            <div>
-                                <h3>BLOG</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/blog">
+                            <div className="cover">
+                                <div>
+                                    <h3>BLOG</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="firebase ">
-                        <div className="cover">
-                            <div>
-                                <h3>FIREBASE <br/> PLATFORM</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/fire">
+                            <div className="cover">
+                                <div>
+                                    <h3>FIREBASE <br/> PLATFORM</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="artesanias">
                         <div className="cover">

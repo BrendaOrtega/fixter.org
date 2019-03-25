@@ -21,6 +21,9 @@ class Nav extends Component {
                         <Link to="capacitacion">
                             <p>Capacitación</p>
                         </Link>
+                        <a href="">
+                            <p>Blog</p>
+                        </a>
                         <Link to="contacto">
                             <p>Contacto</p>
                         </Link>

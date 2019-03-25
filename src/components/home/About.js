@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import {Link} from 'react-router-dom';
 
 class About extends Component {
 
@@ -12,7 +13,9 @@ class About extends Component {
                     Nuestra metodología de desarrollo nos permite crear software modularizado y funcional, lo que permite a nuestros clientes escalar de forma más efectiva sin desechar el producto, solo agregar componentes.
 
                 </p>
-                <span className="info">Saber más de Fixter → </span>
+                <Link to="/nosotros">
+                    <span className="info">Saber más de Fixter → </span>
+                </Link>
             </div>
         );
     }

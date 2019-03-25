@@ -72,6 +72,7 @@ ABOUT*/
 .info{
     color: #f79b36;
     font-weight: bold;
+    cursor:pointer;
 }
 
 /*
@@ -89,24 +90,25 @@ SERVICIOS*/
     width: 300px;
     min-height: 650px;
     flex-grow: 1;
-    background-image: url("../../assets/man-people-space-desk.jpg");
+    background-image: url("https://images.pexels.com/photos/1181547/pexels-photo-1181547.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 .services-text{
-    flex-grow: 1;
+    flex-grow: 2;
     width: 400px;
     height: auto;
     padding: 2% 5%;
     box-sizing: border-box;
 }
 
+
 .services p{
     font-size: 18px;
     color:#4A4A4A;
 }
 .service{
-    width: 220px;
+    width: 300px;
     flex-grow: 1;
     margin: 10px 0;
 }
@@ -150,7 +152,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 8;
     height: 250px;
-    background-image: url("../../assets/arango.png");
+    background-image: url("../../assets/arango/4171c073908185.5c197932630de.png");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -161,7 +163,7 @@ PROJECTS*/
     width: 220px;
     flex-grow: 1;
     height: 250px;
-    background-image: url("../../assets/allende.png");
+    background-image: url("../../assets/allende/aecf0a69379411.5b7ee583a6ff7.png");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -182,7 +184,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 6;
     height: 250px;
-    background-image: url("../../assets/95319469094357.5b7dffae8b541.png");
+    background-image: url("../../assets/suki/95319469094357.5b7dffae8b541 (1).png");
     background-size: cover;
     background-position: center;
     margin: 5px;

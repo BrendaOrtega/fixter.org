@@ -1,0 +1,147 @@
+.project{
+    width: 100%;
+    padding-top: 15%;
+}
+.back{
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 55vh;
+    margin-bottom: 15vh;
+}
+.box-projects{
+    width: 700px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:-50px;
+
+}
+.card-p{
+    width: 200px;
+    flex-grow: 1;
+    background-color: white;
+    height: 130px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    transition: all 1s ease;
+}
+.size{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uno {
+    background-image: url('../../assets/arango/af69cf73908185.5c19793262ca8.png');
+}
+.dos{
+    background-image: url('../../assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.15.47.png');
+}
+.tres{
+    background-image: url('../../assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.15.59.png');
+}
+.cuatro{
+    background-image: url('../../assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.16.45.png');
+}
+.cinco{
+    background-image: url('../../assets/arango/Group.png');
+}
+.seis{
+    background-image: url('../../assets/arango/CAPPP.png');
+}
+.siete{
+    background-image: url('../../assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.22.09.png');
+}
+
+.ocho{
+    background-image: url('../../assets/arango/4171c073908185.5c197932630de.png');
+}
+.nueve{
+    background-image: url('../../assets/arango/Cap.png');
+}
+.diez{
+    background-image: url('../../assets/allende/aecf0a69379411.5b7ee583a6ff7.png');
+}
+.once{
+    background-image: url('../../assets/allende/Group.png');
+}
+.doce{
+    background-image: url('../../assets/allende/37040669337113.5b7d857c805e2.jpg');
+}
+.trece{
+    background-image: url('../../assets/suki/95319469094357.5b7dffae8b541 (1).png');
+}
+.catorce{
+    background-image: url('../../assets/suki/e07b2769094357.5b745d2119ec2.png');
+
+}
+.quince{
+    background-image: url('../../assets/suki/5b74a069094357.5b745d208ca49.png');
+}
+.dizseis{
+    background-image: url('../../assets/suki/392b5b69094357.5b745d208d556.png');
+}
+.dizsiete{
+    background-image: url('../../assets/suki/66f6d069094357.5b745d208e0ae.png');
+
+}
+.dizocho{
+    background-image: url('../../assets/suki/b9ec2f69094357.5b745d208e7b2.png');
+}
+.diznueve{
+    background-image: url('../../assets/suki/1ccff169094357.5b745d208d021.png');
+}
+.veinte{
+    background-image: url('../../assets/suki/fdafdf69094357.5b745d208c064.png');
+}
+.vuno{
+    background-image: url('../../assets/suki/abf97769094357.5b7e16b983fb7.png');
+
+}
+.vdos{
+    background-image: url('../../assets/fire/2b621f69094333.5b7df64ea4626.png');
+
+}
+.vtres{
+    background-image: url('../../assets/fire/19725169094333.5b7dedb34eff9.png');
+
+}
+.vcuatro{
+    background-image: url('../../assets/fire/71f6b269094333.5b745cfd53b46.png');
+}
+.vcinco{
+    background-image: url('../../assets/fire/cb630569094333.5b745cfd54ca6.png');
+}
+.vseis{
+    background-image: url('../../assets/fire/Group.png');
+}
+.vsiete{
+    background-image: url('../../assets/fire/49ef6469094333.5b745cfd5437f.png');
+}
+.vocho{
+    background-image: url('../../assets/fire/32d9ef69094333.5b7df64ea4be1.png');
+}
+.vnueve{
+    background-image: url('../../assets/fire/Capp a la(s) 21.59.22.png');
+}
+.treinta{
+    background-image: url('../../assets/fire/Captura de pantalla 2019-03-24 a la(s) 22.17.41.png');
+}
+.card-p:hover{
+    box-shadow: 0 5px 15px rgba(0,0.3,0.3,0.1);
+    cursor: pointer;
+}
+.box-text{
+    width: 300px;
+    flex-grow: 1;
+    padding: 2% 5%;
+    box-sizing: border-box;
+}
+.box-text h2{
+    color:#414141;
+    font-weight: bolder;
+}

@@ -13,7 +13,7 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
                 <h2>
                     Contáctanos
                 </h2>
-                <p>¿Tienes alguna duda? ¿Quieres cotizar un producto? Completa el formulario</p>
+                <p>¿Tienes alguna duda? ¿Quieres cotizar un producto? Completa el formulario y nos pondremos en contacto contigo lo antes posible</p>
                 <div className="container">
                         <div className="map">
                             <iframe title="GoogleMaps"
@@ -41,33 +41,36 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
                                         <input value={tel} onChange={onChangeMessage}  type="tel" name="tel" placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
                                         <p className="help-block text-danger"></p></div>
                                 </div>
-                               {/* <div >
-                                    <p style={{marginBottom:"0px"}}>Desea recibir información de nuestros servicios:</p>
-                                    <div className="checkbox" style={{display:"flex;"}}>
-                                        <label >
-                                            <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={software} name="soft" />
-                                            Software
-                                        </label>
+                                <div >
+                                    <p style={{marginBottom:"0px"}}>¿En qué servicio estas interesado?</p>
+                                    <div className="fl">
+                                        <div className="checkbox" style={{display:"flex;"}}>
+                                            <label >
+                                                <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={software} name="soft" />
+                                                Software
+                                            </label>
+                                        </div>
+                                        <div className="checkbox">
+                                            <label>
+                                                <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={web} name="web" />
+                                                Páginas web
+                                            </label>
+                                        </div>
+
+                                        <div className="checkbox">
+                                            <label>
+                                                <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={apps}  name="app"/>
+                                                Apps móviles
+                                            </label>
+                                        </div>
+                                        <div className="checkbox">
+                                            <label>
+                                                <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={host} name="host"/>
+                                                UX / UI
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div className="checkbox">
-                                        <label>
-                                            <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={web} name="web" />
-                                            Diseño Web
-                                        </label>
-                                    </div>
-                                    <div className="checkbox">
-                                        <label>
-                                            <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={apps}  name="app"/>
-                                            Apps móviles
-                                        </label>
-                                    </div>
-                                    <div className="checkbox">
-                                        <label>
-                                            <input onChange={onChangeMessage}  type="checkbox" id="checkboxSuccess" value={host} name="host"/>
-                                            Hosting y más
-                                        </label>
-                                    </div>
-                                </div>*/}
+                                </div>
                                 <div >
                                         <div className="inp">
                                             <i className="fa fa-commenting" aria-hidden="true"></i>
