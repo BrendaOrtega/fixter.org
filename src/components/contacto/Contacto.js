@@ -6,6 +6,16 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
 
     return (
         <div >
+            <meta
+                name="description"
+                content="Software development: calidad, precio, y rapidez."
+            />
+            <meta
+                name="keywords"
+                content="software, startups, tecnología, desarrollo, crecimiento, página web"
+            />
+            <title>Contacto | Fixter</title>
+
             <div className="contacto">
 
             </div>

@@ -10,6 +10,15 @@ class Capacitacion extends Component {
     render() {
         return (
             <div>
+                <meta
+                    name="description"
+                    content="Contamos con capacitación personalizada para empresas y startups"
+                />
+                <meta
+                    name="keywords"
+                    content="cursos, capacitación, react, angular, tecnología, programación, javascript, python, php"
+                />
+                <title>Capacitación | Fixter</title>
                 <div className="cap">
 
                 </div>
@@ -19,7 +28,7 @@ class Capacitacion extends Component {
                     Firebase, ReacJs, AngularJs, VueJs, Swift, Android, React Native, Native Script, y más.</p>
                     <p>Contáctanos, cuentanos lo que necesitas y te mandaremos un programa de capacitación adecuado a tus necesidades.</p>
                     <br/>
-                    <Link to="/contacto" style={{textDecoration:"none"}}>
+                    <Link to="/contacto-fixter" style={{textDecoration:"none"}}>
                         <span className="info">Contactar → </span>
                     </Link>
                 </div>

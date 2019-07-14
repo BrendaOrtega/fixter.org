@@ -13,7 +13,7 @@ class Banner extends Component {
                         </h3>
                         <p>Seremos parte de tu proyecto, desde el descubrimiento inicial, la ideación y la arquitectura, hasta el diseño, el desarrollo y el testing
                  </p>
-                    <Link to="/contacto">
+                    <Link to="/contacto-fixter">
                         <button className="btn-c">Cotizar</button>
                     </Link>
                     </div>

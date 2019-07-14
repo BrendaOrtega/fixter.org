@@ -15,16 +15,16 @@ class Nav extends Component {
                     </Link>
                     <hr className="division"/>
                     <div className="pestanas fl">
-                        <Link to="/nosotros">
+                        <Link to="/nosotros-fixter">
                             <p>Nosotros</p>
                         </Link>
-                        <Link to="capacitacion">
+                        <Link to="capacitacion-fixter">
                             <p>Capacitación</p>
                         </Link>
                         <a href="">
                             <p>Blog</p>
                         </a>
-                        <Link to="contacto">
+                        <Link to="contacto-fixter">
                             <p>Contacto</p>
                         </Link>
                     </div>

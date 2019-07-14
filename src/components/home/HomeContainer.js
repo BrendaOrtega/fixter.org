@@ -57,6 +57,15 @@ class HomeContainer extends Component {
     render() {
         return (
             <div>
+                <meta
+                    name="description"
+                    content="Impulsa el crecimiento de tu empresa con nosotros. Desarrollo de Software de forma ágile, rápida y escalable."
+                />
+                <meta
+                    name="keywords"
+                    content="software, startups, tecnología, desarrollo, crecimiento, página web"
+                />
+                <title>Fixter.org</title>
                 <Slide/>
                 <About/>
                 <Servicios/>

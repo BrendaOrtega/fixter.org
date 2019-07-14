@@ -6,16 +6,21 @@ class About extends Component {
 
     render() {
         return (
+            <div>
+
             <div className="about">
+
+
                 <h2>Soluciones Tecnológicas</h2>
                 <p>
 
                     Nuestra metodología de desarrollo nos permite crear software modularizado y funcional, lo que permite a nuestros clientes escalar de forma más efectiva sin desechar el producto, solo agregar componentes.
 
                 </p>
-                <Link to="/nosotros">
+                <Link to="/nosotros-fixter">
                     <span className="info">Saber más de Fixter → </span>
                 </Link>
+            </div>
             </div>
         );
     }

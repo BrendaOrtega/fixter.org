@@ -18,9 +18,9 @@ const Routes = () => (
         <Route path="/blog" component={Suki}/>
         <Route path="/concamin" component={Concamin}/>
         <Route path="/fire" component={Firebase}/>
-        <Route path="/nosotros" component={Nosotros}/>
-        <Route path="/capacitacion" component={Capacitacion}/>
-        <Route path="/contacto" component={ContactoContainer}/>
+        <Route path="/nosotros-fixter" component={Nosotros}/>
+        <Route path="/capacitacion-fixter" component={Capacitacion}/>
+        <Route path="/contacto-fixter" component={ContactoContainer}/>
     </Switch>
 );
 export default Routes;

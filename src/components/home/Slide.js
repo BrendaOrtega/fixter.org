@@ -10,7 +10,7 @@ class Slide extends Component {
                 <div className="box-slogan">
                     <div>
                         <h2 className="slogan">Impulsa el crecimiento de tu empresa con nosotros</h2>
-                        <Link to="/contacto">
+                        <Link to="/contacto-fixter">
                             <button className="btn-c">Cotizar</button>
                         </Link>
                     </div>

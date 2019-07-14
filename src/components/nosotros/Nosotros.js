@@ -9,6 +9,15 @@ class Nosotros extends Component {
     render() {
         return (
             <div>
+                <meta
+                    name="description"
+                    content="Software development"
+                />
+                <meta
+                    name="keywords"
+                    content="software, startups, tecnología, desarrollo, crecimiento, página web"
+                />
+                <title>Sobre Fixter | Fixter</title>
                 <div className="nosotros">
 
                 </div>
