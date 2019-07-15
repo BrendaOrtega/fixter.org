@@ -11,7 +11,7 @@ class Nosotros extends Component {
             <div>
                 <meta
                     name="description"
-                    content="Software development"
+                    content="Impulsa el crecimiento de tu empresa con nosotros. Desarrollo de Software de forma ágile, rápida y escalable."
                 />
                 <meta
                     name="keywords"
