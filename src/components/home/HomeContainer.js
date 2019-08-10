@@ -57,6 +57,15 @@ class HomeContainer extends Component {
     render() {
         return (
             <div>
+                <meta
+                    name="description"
+                    content="Software development: calidad, precio, y rapidez."
+                />
+                <meta
+                    name="keywords"
+                    content="software, startups, tecnología, desarrollo, crecimiento, página web"
+                />
+                <title>Fixter</title>
 
                 <Slide/>
                 <About/>
