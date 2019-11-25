@@ -6,7 +6,7 @@ body{
 .portada{
     width: 100%;
     height: 100vh;
-    background-image: url("../../assets/slide.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fslide.png?alt=media&token=636cf69d-4351-4932-9d73-9d4492fb5b3c");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -30,16 +30,16 @@ body{
 
 .btn-c{
     background-color: #f79b36;
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     border: none;
     color:white;
     font-size: 18px;
     text-transform: uppercase;
     cursor: pointer;
-    margin: 25px auto;
+    margin: 16px auto;
     font-family: 'OpenSansBold', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 1px;
     box-shadow: inset 0 0 0 0 #d87509;
     -webkit-transition: all ease 0.8s;
@@ -90,7 +90,7 @@ SERVICIOS*/
     width: 300px;
     min-height: 650px;
     flex-grow: 1;
-    background-image: url("https://images.pexels.com/photos/1181547/pexels-photo-1181547.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpexels-photo-1181547.jpeg?alt=media&token=07e53141-83df-44be-9d11-b9cc0c74c7fb");
     background-size: cover;
     background-position: center;
 }
@@ -152,7 +152,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 8;
     height: 250px;
-    background-image: url("../../assets/arango/4171c073908185.5c197932630de.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2F4171c073908185.5c197932630de.png?alt=media&token=cd1efb0d-b35f-44d1-8a9f-bd52203cfbf4");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -163,7 +163,7 @@ PROJECTS*/
     width: 220px;
     flex-grow: 1;
     height: 250px;
-    background-image: url("../../assets/allende/aecf0a69379411.5b7ee583a6ff7.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Faecf0a69379411.5b7ee583a6ff7.png?alt=media&token=36f1ac6c-e167-43f8-b84b-a95a992870f6");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -174,7 +174,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 2;
     height: 250px;
-    background-image: url("../../assets/concamin.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2F95319469094357.5b7dffae8b541%20(1).png?alt=media&token=fdaa1f28-2305-4da9-8a61-a1a1a844cba8");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -184,7 +184,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 6;
     height: 250px;
-    background-image: url("../../assets/suki/95319469094357.5b7dffae8b541 (1).png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2FScreen%20Shot%202019-11-24%20at%203.30.48%20PM.png?alt=media&token=1b8bc959-b7ed-42b7-9f81-87f56744cb41");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -194,7 +194,7 @@ PROJECTS*/
     width: 300px;
     flex-grow: 4;
     height: 250px;
-    background-image: url("../../assets/fire/2b621f69094333.5b7df64ea4626.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2F2b621f69094333.5b7df64ea4626.png?alt=media&token=2e6ea6fa-232f-4ea5-a463-a3035d99b89f");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -204,7 +204,7 @@ PROJECTS*/
     width: 250px;
     flex-grow: 1;
     height: 250px;
-    background-image: url("../../assets/d3b57868843687.5b6b36e818b87.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2FScreen%20Shot%202019-11-24%20at%203.33.13%20PM.png?alt=media&token=58f2c9db-3f56-4030-9415-ce4777bffcee");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -241,9 +241,9 @@ BANNER
 .banner{
     width: 100%;
     height: 350px;
-    background-image: url("../../assets/pexels-photo-908292.jpeg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpexels-photo-1595385.jpeg?alt=media&token=f514e102-fab6-4086-9129-6358ee3f3d07");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 .banner h3{
     font-size: 32px;
@@ -252,7 +252,7 @@ BANNER
     color: white;
 }
 .banner p{
-    font-size: 16px;
+    font-size: 18px;
 
 }
 .cover-orange{

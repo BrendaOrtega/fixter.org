@@ -8,7 +8,7 @@ class Nosotros extends Component {
     }
     render() {
         return (
-            <div>
+            <section>
                 <meta
                     name="description"
                     content="Impulsa el crecimiento de tu empresa con nosotros. Desarrollo de Software de forma ágile, rápida y escalable."
@@ -23,8 +23,8 @@ class Nosotros extends Component {
                 </div>
                 <div className="ns">
                     <h2>¿Qué es Fixter?</h2>
-                    <p>Fixter es una casa de desarrollo fundada en Pachuca, Hidalgo, en 2016, con el objetivo de
-                        ayudar a los emprendedores y startups a tener mejores productos digitales
+                    <p>Fixter es una casa de desarrollo fundada en Hidalgo, en el 2016, con el objetivo de
+                        ayudar a los emprendedores y startups a tener mejores productos digitales,
                         que cumplan sus expectativas y cubran sus necesidades.
 
                     </p>
@@ -110,43 +110,48 @@ class Nosotros extends Component {
                     <h2>Algunos de nuestros clientes</h2>
                     <div className=" clientes ">
                         <div className="nn">
-                        <img src="http://www.retozapopan.com.mx/img/LogoRetoZapopan.svg" alt="reto-zapopan"/>
-                        <img src="https://seeklogo.com/images/G/gobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png" alt="gobierno-hidalgo"/>
-                        <img src="https://arangorestaurante.com/static/media/arango_logo.9209e5d7.png" alt="arango"/>
-                        <img src="http://concamin.mx/wp-content/uploads/2015/08/header-logo-concamin.png" alt="concamin"/>
-                        <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/05/logo.png" alt="allende"/>
-                        <img src="https://firebasemx.com/static/media/firemx.018fbe39.png" alt="firebase"/></div>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2FLogoRetoZapopan.svg?alt=media&token=b1c496ec-0ad7-4df2-b68e-307e346ddd02" alt="reto-zapopan"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fgobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png?alt=media&token=5bee7633-5d3f-4cc3-a2e6-96aee46627da" alt="gobierno-hidalgo"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Farango_logo.9209e5d7.png?alt=media&token=b959315e-2ac0-4645-a7f8-3b1eabfef786" alt="arango"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fheader-logo-concamin.png?alt=media&token=e954bccc-8857-4bcc-8dba-22b40375e6bf" alt="concamin"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Flogo.png?alt=media&token=141918fd-914a-42ab-bafd-3b79d09d3b5b" alt="allende"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Flogo_horizontal.png?alt=media&token=e7a57bf9-5046-4c76-8cbe-60acd3f19796" alt="horizonte"/></div>
 
                 <div className="uk-position-relative uk-visible-toggle uk-light movil" tabIndex="-1" uk-slider="center: true, autoplay:true">
 
                     <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
-                                <img src="http://www.retozapopan.com.mx/img/LogoRetoZapopan.svg" alt="reto-zapopan"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2FLogoRetoZapopan.svg?alt=media&token=b1c496ec-0ad7-4df2-b68e-307e346ddd02" alt="reto-zapopan"/>
 
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
-                                <img src="https://seeklogo.com/images/G/gobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png" alt="gobierno-hidalgo"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fgobierno-del-estado-de-hidalgo-logo-83001C1D96-seeklogo.com.png?alt=media&token=5bee7633-5d3f-4cc3-a2e6-96aee46627da" alt="gobierno-hidalgo"/>
 
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div>
-                                <img src="https://arangorestaurante.com/static/media/arango_logo.9209e5d7.png" alt="arango"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Farango_logo.9209e5d7.png?alt=media&token=b959315e-2ac0-4645-a7f8-3b1eabfef786" alt="arango"/>
 
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
-                                <img src="http://concamin.mx/wp-content/uploads/2015/08/header-logo-concamin.png" alt="concamin"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fheader-logo-concamin.png?alt=media&token=e954bccc-8857-4bcc-8dba-22b40375e6bf" alt="concamin"/>
 
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
-                                <img src="http://cerveceriaallende.mx/wp-content/uploads/2015/05/logo.png" alt="allende"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Flogo.png?alt=media&token=141918fd-914a-42ab-bafd-3b79d09d3b5b" alt="allende"/>
+                            </div>
+                        </li>
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Flogo_horizontal.png?alt=media&token=e7a57bf9-5046-4c76-8cbe-60acd3f19796" alt="horizonte"/>
                             </div>
                         </li>
                     </ul>
@@ -156,7 +161,7 @@ class Nosotros extends Component {
                        uk-slider-item="next"></a>
                 </div>
                 </div></div>
-            </div>
+            </section>
         );
     }
 }

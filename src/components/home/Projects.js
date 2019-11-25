@@ -31,20 +31,20 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className="concamin">
-                        <Link to="/concamin">
+                        <Link to="/blog">
                             <div className="cover">
                                 <div>
-                                    <h3>CONCAMIN</h3>
+                                    <h3>BLOG</h3>
                                     <FontAwesome name="braille"/>
                                 </div>
                             </div>
                         </Link>
                     </div>
                     <div className="blog">
-                        <Link to="/blog">
+                        <Link to="/horzonte">
                             <div className="cover">
                                 <div>
-                                    <h3>BLOG</h3>
+                                    <h3>HORIZONTE</h3>
                                     <FontAwesome name="braille"/>
                                 </div>
                             </div>
@@ -61,12 +61,14 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className="artesanias">
-                        <div className="cover">
-                            <div>
-                                <h3>ARTESANÍAS <br/> HIDALGO</h3>
-                                <FontAwesome name="braille"/>
+                        <Link to="/zendala">
+                            <div className="cover">
+                                <div>
+                                    <h3>ZENDA.LA</h3>
+                                    <FontAwesome name="braille"/>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

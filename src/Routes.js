@@ -9,6 +9,7 @@ import Allende from "./components/projects/Allende";
 import Suki from "./components/projects/Suki";
 import Firebase from "./components/projects/Firebase";
 import Concamin from './components/projects/Concamin';
+import Servicios from "./components/servicios/Servicios"
 
 const Routes = () => (
     <Switch>
@@ -19,6 +20,7 @@ const Routes = () => (
         <Route path="/Concamin" component={Concamin}/>
         <Route path="/fire" component={Firebase}/>
         <Route path="/nosotros-fixter" component={Nosotros}/>
+        <Route path="/servicios-fixter" component={Servicios}/>
         <Route path="/capacitacion-fixter" component={Capacitacion}/>
         <Route path="/contacto-fixter" component={ContactoContainer}/>
     </Switch>

@@ -1,30 +1,25 @@
 import React, { Component } from 'react';
 import './Home.css';
-import milenio from '../../assets/milenio-01.svg';
-import gob from '../../assets/not1-01.svg';
-import independiente from '../../assets/indep-01.svg';
-import hgo from '../../assets/hgo-01.svg';
-
 
 class Growth extends Component {
 
     render() {
         return (
-            <div className="growth">
+            <section className="growth">
 
                 <h2>Lo que dicen de nosotros</h2>
                 <div className="medios web">
                     <a className="line" href="https://www.milenio.com/opinion/varios-autores/ciencia-tecnologia/se-el-nerd" target={"blank"}>
-                        <img className="img" src={milenio} alt="milenio"/>
+                        <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fmilenio-01.svg?alt=media&token=b9081365-2b53-437d-957d-d7f3ffab3c33" alt="milenio"/>
                     </a>
                     <a className="line" href="https://www.gob.mx/se/prensa/otorgan-premio-a-los-ganadores-del-reto-crowfunding-reto-zapopan" target={"blank"}>
-                        <img className="img" src={gob} alt="gob"/>
+                        <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fnot1-01.svg?alt=media&token=24cc0942-6f85-494b-98d5-3fcb4dd4a8ab" alt="gob"/>
                     </a>
                     <a className="line" href="https://www.elindependientedehidalgo.com.mx/archivo/2016/04/324454" target={"blank"}>
-                        <img className="img" src={independiente} alt="independiente"/>
+                        <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Findep-01.svg?alt=media&token=8c9f1c78-5381-4657-b356-74120e2d3224" alt="independiente"/>
                     </a>
                     <a href="http://comunicacion.hidalgo.gob.mx/?p=26428" target={"blank"}>
-                        <img style={{ width:"250px"}} src={hgo} alt="hgo"/>
+                        <img style={{ width:"250px"}} src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fhgo-01.svg?alt=media&token=76801941-5ec3-4287-9c25-68978fe831e9" alt="hgo"/>
                     </a>
 
 
@@ -36,21 +31,21 @@ class Growth extends Component {
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
                                 <a  href="https://www.milenio.com/opinion/varios-autores/ciencia-tecnologia/se-el-nerd" target={"blank"}>
-                                    <img className="img" src={milenio} alt="milenio"/>
+                                    <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fmilenio-01.svg?alt=media&token=b9081365-2b53-437d-957d-d7f3ffab3c33" alt="milenio"/>
                                 </a>
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
                                 <a  href="https://www.gob.mx/se/prensa/otorgan-premio-a-los-ganadores-del-reto-crowfunding-reto-zapopan" target={"blank"}>
-                                    <img className="img" src={gob} alt="gpb"/>
+                                    <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fnot1-01.svg?alt=media&token=24cc0942-6f85-494b-98d5-3fcb4dd4a8ab" alt="gpb"/>
                                 </a>
                             </div>
                         </li>
                         <li className="uk-width-3-4">
                             <div>
                                 <a  href="https://www.elindependientedehidalgo.com.mx/archivo/2016/04/324454" target={"blank"}>
-                                    <img className="img" src={independiente} alt="independiente"/>
+                                    <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Findep-01.svg?alt=media&token=8c9f1c78-5381-4657-b356-74120e2d3224" alt="independiente"/>
                                 </a>
                             </div>
                         </li>
@@ -64,7 +59,7 @@ class Growth extends Component {
                         <li className="uk-width-3-4">
                             <div className="uk-panel">
                                 <a href="https://www.milenio.com/opinion/varios-autores/ciencia-tecnologia/fixter-camp-1" target={"blank"}>
-                                    <img className="img" src={milenio} alt="milenio"/>
+                                    <img className="img" src="https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fmilenio-01.svg?alt=media&token=b9081365-2b53-437d-957d-d7f3ffab3c33" alt="milenio"/>
                                 </a>
                             </div>
                         </li>
@@ -79,7 +74,7 @@ class Growth extends Component {
 
                 </div>
 
-            </div>
+            </section>
 
         );
     }

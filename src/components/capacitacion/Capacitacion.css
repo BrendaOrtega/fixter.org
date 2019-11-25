@@ -1,8 +1,26 @@
 .cap{
     width: 100%;
     height: 50vh;
-    background-image: url("../../assets/pexels-photo-48605.jpeg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpexels-photo-48605.jpeg?alt=media&token=31ed0bdf-bd5b-4363-81c7-732eb824dbf6");
     background-size: cover;
     background-position: top;
+
+}
+.herramientas{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.herramientas img{
+    width: 120px;
+    margin: 32px 32px;
+    filter: grayscale(100%);
+    opacity: .4;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.herramientas img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
 
 }
