@@ -68,9 +68,9 @@ class Growth extends Component {
                     </ul>
 
                     <a aria-label="previo" className="uk-position-center-left uk-position-small uk-hidden-hover" style={{color:"black"}} href="/"
-                       uk-slidenav-previous uk-slider-item="previous"></a>
+                       uk-slidenav-previous uk-slider-item="previous"><p style={{display:"none"}}>Preview</p></a>
                     <a aria-label="next" className="uk-position-center-right uk-position-small uk-hidden-hover" href="/" uk-slidenav-next
-                       uk-slider-item="next"></a>
+                       uk-slider-item="next"><p style={{display:"none"}}>Next</p></a>
 
                 </div>
 

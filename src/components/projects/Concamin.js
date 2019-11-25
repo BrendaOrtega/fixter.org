@@ -7,11 +7,11 @@ class Concamin extends Component {
     }
     render() {
         return (
-            <div className="project">
+            <section className="project">
                 <div className="back">
                    <h2>En constucción</h2>
                 </div>
-            </div>
+            </section>
         );
     }
 }

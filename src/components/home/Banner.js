@@ -6,7 +6,7 @@ class Banner extends Component {
 
     render() {
         return (
-            <div className="banner">
+            <section className="banner">
                 <div className="cover-orange">
                     <div>
                         <h3>Tenemos la experiencia para diseñar y desarrollar productos digitales <br/>con las mejores herramientas
@@ -18,7 +18,7 @@ class Banner extends Component {
                     </Link>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

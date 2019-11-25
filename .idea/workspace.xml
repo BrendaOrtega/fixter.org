@@ -2,78 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7faa1fb7-8f6c-4477-b70a-20dae36cbc56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/FIXTER_ORG_BORDE-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/allende/37040669337113.5b7d857c805e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/allende/95319469094357.5b7dffae8b541.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/allende/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/allende/aecf0a69379411.5b7ee583a6ff7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/allende/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/4171c073908185.5c197932630de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/CAPPP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Cap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.15.47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.15.59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.16.45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.21.48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Captura de pantalla 2019-03-24 a la(s) 20.22.09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/af69cf73908185.5c19793262ca8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arango/arango_logo.9209e5d7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bgImage6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/chalkboard-teacher-solid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/concamin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/d3b57868843687.5b6b36e818b87.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/12100369094333.5b745cfdc8c21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/19725169094333.5b7dedb34eff9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/2b621f69094333.5b7df64ea4626.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/32d9ef69094333.5b7df64ea4be1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/49ef6469094333.5b745cfd5437f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/53567235_2408356992522024_9187774832509452288_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/71f6b269094333.5b745cfd53b46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/Capp a la(s) 21.59.22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/Captura de pantalla 2019-03-24 a la(s) 22.17.41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fire/cb630569094333.5b745cfd54ca6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/hgo-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/indep-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ioxhost-brands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/laptop-code-solid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/man-people-space-desk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/man-people-space-desk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/milenio-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mobile-alt-solid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/not1-01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pexels-photo-1038674.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pexels-photo-48605.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pexels-photo-908292.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/slide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/1ccff169094357.5b745d208d021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/392b5b69094357.5b745d208d556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/5b74a069094357.5b745d208ca49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/66f6d069094357.5b745d208e0ae.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/95319469094357.5b7dffae8b541 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/abf97769094357.5b7e16b983fb7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/b9ec2f69094357.5b745d208e7b2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/e07b2769094357.5b745d2119ec2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/suki/fdafdf69094357.5b745d208c064.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/woman.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contacto/Contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacto/Contacto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacto/Contacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacto/Contacto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Growth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Growth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Servicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Servicios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Allende.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Allende.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Arango.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Arango.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Concamin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Concamin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Suki.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Suki.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/servicios/Servicios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/servicios/Servicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +101,7 @@
       <workItem from="1563162329797" duration="433000" />
       <workItem from="1565479617265" duration="271000" />
       <workItem from="1565480104384" duration="68000" />
-      <workItem from="1574627801377" duration="12918000" />
+      <workItem from="1574627801377" duration="14596000" />
     </task>
     <servers />
   </component>

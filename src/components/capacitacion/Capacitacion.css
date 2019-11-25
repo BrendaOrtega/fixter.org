@@ -24,3 +24,16 @@
     filter: grayscale(0%);
 
 }
+
+@media (max-width: 500px) {
+
+    .cap{
+        height: 24vh;
+    }
+    .general-description{
+        padding: 32px 10%;
+    }
+    .herramientas img{
+      display: none;
+    }
+}

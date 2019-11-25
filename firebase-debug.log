@@ -1,0 +1,16 @@
+[debug] [2019-11-25T04:12:29.713Z] ----------------------------------------------------------------------
+[debug] [2019-11-25T04:12:29.715Z] Command:       /Users/Brenda/.nvm/versions/node/v12.13.0/bin/node /Users/Brenda/.nvm/versions/node/v12.13.0/bin/firebase deploy
+[debug] [2019-11-25T04:12:29.715Z] CLI Version:   7.8.1
+[debug] [2019-11-25T04:12:29.715Z] Platform:      darwin
+[debug] [2019-11-25T04:12:29.715Z] Node Version:  v12.13.0
+[debug] [2019-11-25T04:12:29.716Z] Time:          Sun Nov 24 2019 22:12:29 GMT-0600 (Central Standard Time)
+[debug] [2019-11-25T04:12:29.716Z] ----------------------------------------------------------------------
+[debug] [2019-11-25T04:12:29.717Z] 
+[debug] [2019-11-25T04:12:29.725Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-25T04:12:29.725Z] > authorizing via signed-in user
+[debug] [2019-11-25T04:12:29.725Z] [iam] checking project camp-92fe8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-11-25T04:12:29.726Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/camp-92fe8:testIamPermissions  
+
+[debug] [2019-11-25T04:12:30.216Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-25T04:12:30.218Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/camp-92fe8  
+ 

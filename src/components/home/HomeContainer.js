@@ -56,7 +56,7 @@ class HomeContainer extends Component {
 
     render() {
         return (
-            <div>
+            <section>
                 <meta
                     name="description"
                     content="Software development: calidad, precio, y rapidez."
@@ -73,7 +73,7 @@ class HomeContainer extends Component {
                 <Projects/>
                 <Banner/>
                 <Growth/>
-            </div>
+            </section>
         );
     }
 }

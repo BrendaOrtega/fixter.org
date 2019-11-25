@@ -57,6 +57,12 @@
     text-align: center;
 
 }
+.desk{
+    display: initial;
+}
+.mov{
+    display: none;
+}
 
 @media (max-width: 500px) {
     .general-description div{
@@ -65,11 +71,7 @@
     .cortina{
         display: none;
     }
-    .services-box{
-        padding: 10%;
-        overflow: hidden;
-        box-sizing: border-box;
-    }
+
     .uk-slider-items{
         width: 90% !important;
     }
@@ -78,5 +80,31 @@
     }
     .card-service{
         height: 600px;
+    }
+    .desk{
+        display: none;
+    }
+    .mov{
+        background-color: #f4f4f4;
+        display: flex;
+        flex-wrap: wrap;
+        padding:24px 0;
+    }
+    .card-service{
+        width: 90%;
+        margin: 32px auto;
+        height: 500px;
+    }
+    .card-service h3{
+        margin-top: 40px;
+    }
+    .card-service img{
+        height: 80px;
+    }
+    .servicios{
+        height: 24vh;
+    }
+    .general-description{
+        padding: 32px 10%;
     }
 }

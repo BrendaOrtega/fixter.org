@@ -6,7 +6,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="footer">
+            <section className="footer">
                 <div className="footer-box">
                     <div>
                         <h3>Fixter.org</h3>
@@ -40,9 +40,9 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="copy">
-                    © Copright 2018 Fixter
+                    © Copyright 2018 Fixter
                 </div>
-            </div>
+            </section>
         );
     }
 }

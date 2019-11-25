@@ -7,7 +7,7 @@ class Suki extends Component {
     }
     render() {
         return (
-            <div className="project">
+            <section className="project">
                 <div className="back">
                     <div className="size">
                         <div className="box-projects">
@@ -46,7 +46,7 @@ class Suki extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

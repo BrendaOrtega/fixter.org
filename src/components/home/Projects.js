@@ -7,7 +7,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="projects">
+            <section className="projects">
                 <h2>Proyectos</h2>
                 <div className="projects-fl">
                     <div className="arango">
@@ -72,7 +72,7 @@ class Projects extends Component {
                     </div>
 
                 </div>
-            </div>
+            </section>
         );
     }
 }

@@ -104,5 +104,12 @@
     .nn{
         display: none;
     }
+    .nosotros{
+        height: 24vh;
+    }
+    .ns{
+        padding: 32px 10%;
+        margin: 0;
+    }
 }
 

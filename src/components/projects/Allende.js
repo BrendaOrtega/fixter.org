@@ -7,7 +7,7 @@ class Allende extends Component {
     }
     render() {
         return (
-            <div className="project">
+            <section className="project">
                 <div className="back">
                     <div className="size">
                         <div className="box-projects">
@@ -29,7 +29,7 @@ class Allende extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

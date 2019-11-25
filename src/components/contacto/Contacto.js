@@ -5,7 +5,7 @@ import './Contacto.css';
 export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj, software, web, apps, host }) => {
 
     return (
-        <div >
+        <section >
             <meta
                 name="description"
                 content="Software development: calidad, precio, y rapidez."
@@ -100,6 +100,6 @@ export const Contacto = ({onSave, errors, onChangeMessage, name, email, tel, msj
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }
