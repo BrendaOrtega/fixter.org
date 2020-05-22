@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7faa1fb7-8f6c-4477-b70a-20dae36cbc56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/Horizonte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/Zendala.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/capacitacion/Capacitacion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacto/Contacto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacto/Contacto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacto/Contacto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacto/Contacto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Growth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Growth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nosotros/Nosotros.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nosotros/Nosotros.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Allende.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Allende.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Arango.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Arango.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Concamin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Concamin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Suki.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Suki.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/servicios/Servicios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/servicios/Servicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,8 +52,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U4tfV0wZTWL6w7QaUdecAFv6vG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -64,18 +79,6 @@
       <recent name="$PROJECT_DIR$/src/components/home" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,11 +105,12 @@
       <workItem from="1565479617265" duration="271000" />
       <workItem from="1565480104384" duration="68000" />
       <workItem from="1574627801377" duration="14596000" />
+      <workItem from="1590107450425" duration="2630000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -118,5 +122,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

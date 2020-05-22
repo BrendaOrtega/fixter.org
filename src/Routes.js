@@ -10,6 +10,8 @@ import Suki from "./components/projects/Suki";
 import Firebase from "./components/projects/Firebase";
 import Concamin from './components/projects/Concamin';
 import Servicios from "./components/servicios/Servicios"
+import Horizonte from "./components/projects/Horizonte";
+import Zendala from "./components/projects/Zendala";
 
 const Routes = () => (
     <Switch>
@@ -19,6 +21,8 @@ const Routes = () => (
         <Route path="/blog" component={Suki}/>
         <Route path="/Concamin" component={Concamin}/>
         <Route path="/fire" component={Firebase}/>
+        <Route path="/horizonte" component={Horizonte}/>
+        <Route path="/zendala" component={Zendala}/>
         <Route path="/nosotros-fixter" component={Nosotros}/>
         <Route path="/servicios-fixter" component={Servicios}/>
         <Route path="/capacitacion-fixter" component={Capacitacion}/>

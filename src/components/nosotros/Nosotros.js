@@ -47,10 +47,10 @@ class Nosotros extends Component {
                             </div>
                             <h4>Brenda Ortega</h4>
                             <p>Co-Founder & CEO</p>
-                            <a href="https://www.facebook.com/brenda.ortega.7121">
+                            <a href="https://www.facebook.com/brenda.ortega.7121" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="facebook-square" />
                             </a>
-                            <a href="https://www.linkedin.com/in/brenda-ort/" target="blank">
+                            <a href="https://www.linkedin.com/in/brenda-ort/" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="linkedin"/>
                             </a>
                         </div>
@@ -60,10 +60,10 @@ class Nosotros extends Component {
                             </div>
                             <h4>Héctor Bliss</h4>
                             <p>Co-Founder & CTO</p>
-                            <a href="https://www.facebook.com/hector.bliss">
+                            <a href="https://www.facebook.com/hector.bliss" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="facebook-square" />
                             </a>
-                            <a href="https://www.linkedin.com/in/hectorbliss/" target="blank">
+                            <a href="https://www.linkedin.com/in/hectorbliss/" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="linkedin"/>
                             </a>
                         </div>
@@ -74,7 +74,7 @@ class Nosotros extends Component {
                             <h4>Oscar Villeda</h4>
                             <p>CMO</p>
                                 <FontAwesome name="facebook-square" />
-                            <a href="https://www.linkedin.com/in/hectorbliss/" target="blank">
+                            <a href="https://www.linkedin.com/in/hectorbliss/" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="linkedin"/>
                             </a>
                         </div>
@@ -84,10 +84,10 @@ class Nosotros extends Component {
                             </div>
                             <h4>David Zavala</h4>
                             <p>FullStack Developer</p>
-                            <a href="https://www.facebook.com/david.pzmck">
+                            <a href="https://www.facebook.com/david.pzmck" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="facebook-square" />
                             </a>
-                            <a href="https://www.linkedin.com/in/david-zavala-bartolome/" target="blank">
+                            <a href="https://www.linkedin.com/in/david-zavala-bartolome/" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="linkedin"/>
                             </a>
                         </div>
@@ -97,10 +97,10 @@ class Nosotros extends Component {
                             </div>
                             <h4>Oswaldo Martinez</h4>
                             <p>FullStack Developer</p>
-                            <a href="https://www.facebook.com/oswwaldom">
+                            <a href="https://www.facebook.com/oswwaldom" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="facebook-square" />
                             </a>
-                            <a href="https://www.linkedin.com/in/oswaldinho24k/" target="blank">
+                            <a href="https://www.linkedin.com/in/oswaldinho24k/" target={"blank"} rel="noopener noreferrer">
                                 <FontAwesome name="linkedin"/>
                             </a>
                         </div>

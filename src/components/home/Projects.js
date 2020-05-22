@@ -8,7 +8,7 @@ class Projects extends Component {
     render() {
         return (
             <section className="projects">
-                <h2>Proyectos</h2>
+                <h2>Algunos de nuestros proyectos</h2>
                 <div className="projects-fl">
                     <div className="arango">
                         <Link to="/arango">
@@ -41,7 +41,7 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className="blog">
-                        <Link to="/horzonte">
+                        <Link to="/horizonte">
                             <div className="cover">
                                 <div>
                                     <h3>HORIZONTE</h3>

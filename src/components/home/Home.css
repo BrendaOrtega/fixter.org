@@ -160,7 +160,7 @@ PROJECTS*/
 }
 
 .allende{
-    width: 220px;
+    width: 300px;
     flex-grow: 1;
     height: 250px;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Faecf0a69379411.5b7ee583a6ff7.png?alt=media&token=36f1ac6c-e167-43f8-b84b-a95a992870f6");
@@ -201,7 +201,7 @@ PROJECTS*/
     cursor: pointer;
 }
 .artesanias{
-    width: 250px;
+    width: 300px;
     flex-grow: 1;
     height: 250px;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2FScreen%20Shot%202019-11-24%20at%203.33.13%20PM.png?alt=media&token=58f2c9db-3f56-4030-9415-ce4777bffcee");
@@ -305,6 +305,30 @@ GROWTH*/
     display: none;
 }
 
+
+@media (min-width: 1450px) {
+    .arango, .allende, .concamin, .artesanias {
+        width: 400px;
+    }
+
+    .blog, .firebase {
+        width: 400px;
+    }
+
+    .service {
+        width: 400px;
+    }
+
+    .card-p {
+        width: 270px !important;
+    }
+}
+@media (max-width: 1450px) {
+
+    .card-p {
+        width: 200px !important;
+    }
+}
 @media(max-width: 768px) {
     .web{
         display: none;
@@ -321,6 +345,9 @@ GROWTH*/
 }
 
 @media(max-width: 435px){
+    .box-text{
+        margin-top: 80px;
+    }
     .box-slogan h2{
         font-size: 40px;
     }

@@ -30,16 +30,16 @@ class Nav extends Component {
                     </div>
                 </div>
                 <div className="redes fl">
-                    <a href="https://www.facebook.com/Fixterorg-1333568760053068/" aria-label="Facebook" target={"blank"}>
+                    <a href="https://www.facebook.com/Fixterorg-1333568760053068/" aria-label="Facebook" target={"blank"} rel="noopener noreferrer">
                         <FontAwesome name="facebook"/>
                     </a>
-                    <a href="https://wa.me/5217714348038" aria-label="Whats app" target={"blank"}>
+                    <a href="https://wa.me/5217757609276" aria-label="Whats app" target={"blank"} rel="noopener noreferrer">
                         <FontAwesome name="whatsapp"/>
                     </a>
-                    <a href="https://www.linkedin.com/company/28982942/admin/" aria-label="Linkedin" target={"blank"}>
+                    <a href="https://www.linkedin.com/company/28982942/admin/" aria-label="Linkedin" target={"blank"} rel="noopener noreferrer">
                         <FontAwesome name="linkedin"/>
                     </a>
-                    <a href="mailto:brenda@fixter.org" aria-label="Mail" >
+                    <a href="mailto:brenda@fixter.org" aria-label="Mail" rel="noopener noreferrer">
                         <FontAwesome name="envelope"/>
                     </a>
 
