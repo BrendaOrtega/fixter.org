@@ -24,6 +24,7 @@
 .navbar img{
     height: 70px;
 }
+
 .menu h1{
     font-size:24px;
     margin-bottom: 0;
@@ -91,7 +92,7 @@
     }
 
 }
-@media(max-width: 320px){
+@media(max-width: 330px){
     .navbar{
         padding: 0% 1%;
         justify-content: center;
@@ -99,5 +100,23 @@
     .menu p{
         font-size: 12px;
         margin: 0 5px;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu img{
+        width: 25%;
+        text-align: center;
+    }
+    .menu hr{
+        display: none;
+    }
+    .fl{
+        display: flex;
+        justify-content: space-around;
     }
 }
