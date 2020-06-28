@@ -22,8 +22,7 @@
     <list default="true" id="7faa1fb7-8f6c-4477-b70a-20dae36cbc56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/servicios/Servicios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/servicios/Servicios.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1574627801377" duration="14596000" />
       <workItem from="1590107450425" duration="2713000" />
       <workItem from="1592194132892" duration="527000" />
-      <workItem from="1593311731335" duration="633000" />
+      <workItem from="1593311731335" duration="939000" />
     </task>
     <servers />
   </component>

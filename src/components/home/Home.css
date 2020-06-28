@@ -240,10 +240,10 @@ BANNER
 
 .banner{
     width: 100%;
-    height: 350px;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpexels-photo-1595385.jpeg?alt=media&token=f514e102-fab6-4086-9129-6358ee3f3d07");
+    height: 400px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpexels-photo-3810790.jpeg?alt=media&token=6b832875-2986-47b6-bb2a-a1379cfee2db");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 .banner h3{
     font-size: 32px;
