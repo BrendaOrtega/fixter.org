@@ -115,7 +115,7 @@
     .menu hr{
         display: none;
     }
-    .fl{
+    .navbar .fl{
         display: flex;
         justify-content: space-around;
     }
