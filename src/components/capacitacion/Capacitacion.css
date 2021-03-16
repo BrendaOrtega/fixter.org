@@ -13,6 +13,7 @@
 }
 .herramientas img{
     width: 120px;
+    max-height: 120px;
     margin: 32px 32px;
     filter: grayscale(100%);
     opacity: .4;
