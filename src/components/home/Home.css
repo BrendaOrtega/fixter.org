@@ -1,7 +1,4 @@
 /*SLIDE*/
-body{
-
-}
 
 .portada{
     width: 100%;
@@ -77,7 +74,7 @@ ABOUT*/
 
 /*
 SERVICIOS*/
-
+/* 
 .services{
     width: 100%;
     height:auto;
@@ -127,7 +124,7 @@ SERVICIOS*/
     color:#414141;
     font-weight: bolder;
 
-}
+} */
 
 
 /*
@@ -306,6 +303,90 @@ GROWTH*/
 }
 
 
+
+/* SERVICES */
+
+.section-services{
+    width: 100%;
+    padding: 80px 10% 80px 10%;
+    box-sizing: border-box;
+
+}
+.box-services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.service{
+    width: 500px;
+    flex-grow: 1;
+    padding: 24px 48px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.section-services h2, .projects-section h2, .growth h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.circle span{
+    font-size:54px;
+}
+.circle:hover{
+    background-color: #f79b36;
+    color: white;
+}
+.projects-section{
+    /* background-color: #f2f2f2; */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/-Kzorqdwn3S9Ecl7LZB6%2Fpapper.png?alt=media&token=f9b0fbbb-cdf2-43c7-b2ad-9856d26bb40b");
+    width: 100%;
+    padding: 80px 10% 1px 10%;
+    box-sizing: border-box;
+}
+.proyecto{
+    display: flex;
+    margin: 160px 0;
+}
+.proyecto img{
+    width: 60%;
+
+}
+.proyecto-info{
+    padding: 0px 48px;
+    width: 40%;
+}
+.proyecto-info h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* TAG */
+.tool-tag{
+    padding: 0 16px;
+    height: 32px;
+    background-color: #323232;
+    color: #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 16px;
+    margin-top: 12px;
+}
+
+
 @media (min-width: 1450px) {
     .arango, .allende, .concamin, .artesanias {
         width: 400px;
@@ -329,7 +410,7 @@ GROWTH*/
         width: 200px !important;
     }
 }
-@media(max-width: 768px) {
+@media(max-width: 788px) {
     .web{
         display: none;
     }
@@ -341,6 +422,17 @@ GROWTH*/
     }
     .box-slogan h2{
         font-size: 50px;
+    }
+    .proyecto{
+        flex-wrap: wrap;
+    }
+    .proyecto img{
+        width: 100%;
+    }
+    .proyecto-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 16px;
     }
 }
 
@@ -370,6 +462,7 @@ GROWTH*/
         border-right: none;
         border-bottom: none;
      }
+
 
 }
 

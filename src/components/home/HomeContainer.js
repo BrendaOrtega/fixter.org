@@ -71,7 +71,7 @@ class HomeContainer extends Component {
                 <About/>
                 <Servicios/>
                 <Projects/>
-                <Banner/>
+                {/* <Banner/> */}
                 <Growth/>
             </section>
         );

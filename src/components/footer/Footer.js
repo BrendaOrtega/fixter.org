@@ -19,7 +19,7 @@ class Footer extends Component {
                         <a href="https://www.facebook.com/Fixterorg-1333568760053068/" aria-label="Facebook" target={"blank"} >
                             <FontAwesome name="facebook"/>
                         </a>
-                        <a href="https://wa.me/5217714348038" aria-label="whatsapp" target={"blank"}>
+                        <a href="https://wa.me/5217757609276" aria-label="whatsapp" target={"blank"}>
                             <FontAwesome name="whatsapp"/>
                         </a>
                         <a href="https://www.linkedin.com/company/28982942/admin/" aria-label="linkedin" target={"blank"}>
