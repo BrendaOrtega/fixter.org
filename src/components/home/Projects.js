@@ -23,7 +23,7 @@ class Projects extends Component {
                         <TagT text="User Research"/> <TagT text="UI Design"/> <TagT text="Frontend"/> <TagT text="Backend"/> <TagT text="API's"/>
                     </div>
                 </div>
-                <div className="proyecto">
+                <div className="proyecto reverse">
                     <div className="proyecto-info">
                         <h3>Zendal.la</h3>
                         <p>Plataforma Web para la adquisición de seguros de vida y/ seguros de auto.</p>
@@ -36,7 +36,7 @@ class Projects extends Component {
                     <img src={img3}/>
                     <div className="proyecto-info">
                         <h3>Collectum Datos Panel</h3>
-                        <p>Sistema de Administración interna</p>
+                        <p>Plataforma Web de encuestas </p>
                         <TagT text="User Research"/> <TagT text="UI Design"/> <TagT text="Frontend"/> <TagT text="Backend"/><TagT text="Google Analytics"/> 
                     </div>
                 </div>

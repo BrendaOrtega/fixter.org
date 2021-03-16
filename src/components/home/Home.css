@@ -425,6 +425,7 @@ GROWTH*/
     }
     .proyecto{
         flex-wrap: wrap;
+        margin: 80px 0;
     }
     .proyecto img{
         width: 100%;
@@ -433,6 +434,10 @@ GROWTH*/
         width: 100%;
         padding: 0;
         margin-top: 16px;
+    }
+    .reverse{
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 }
 
