@@ -468,7 +468,11 @@ GROWTH*/
         border-right: none;
         border-bottom: none;
      }
-
+     .proyecto img{
+        width: 100%;
+       max-height: 210px;
+    
+    }
 
 }
 
