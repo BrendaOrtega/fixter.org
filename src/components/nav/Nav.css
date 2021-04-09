@@ -60,7 +60,7 @@
     color:inherit;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 790px) {
     .navbar .redes span{
         display: none;
     }
