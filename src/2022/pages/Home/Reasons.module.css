@@ -1,0 +1,27 @@
+.reasons{
+    width: 100%;
+    padding: 80px 10%;
+    box-sizing: border-box;
+}
+.reasonsBox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.reasonsBox h3{
+    font-size: 36px;
+    color: #212121;
+    font-weight: bolder;
+}
+.reasonsBox div{
+    margin: 0 16px 0;
+}
+.reasonsBox div h4{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.reasonsBox div p{
+    margin-top: 8px;
+}

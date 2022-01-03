@@ -1,0 +1,22 @@
+.navbar-top{
+    width: 100%;
+    height: 70px;
+    padding: 0 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8E7E7;
+}
+.navbar-top img{
+    width: 136px;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+}
+.navbar-top h3{
+    margin: 0 16px;
+    font-size: 18px;
+    color: #212121;
+}

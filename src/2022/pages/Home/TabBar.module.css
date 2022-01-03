@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #323232;
+    width: 900px;
+    height: 70px;
+    border-radius: 35px;
+    color: white;
+    padding: 0 16px;
+    margin: 54px auto 0 ;
+    font-family: "Avenir Book";
+}
+.toggleButton.active{
+    background-color: white;
+    color:#323232;
+}
+.toggleButton{
+    width: 180px;
+    height: 46px;
+    background-color: transparent;
+    border-radius: 23px;
+    padding: 0 16px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Avenir Book";
+    font-size: 16px;
+}

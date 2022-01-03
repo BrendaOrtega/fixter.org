@@ -1,0 +1,36 @@
+.services{
+    width: 100%;
+    height: auto;
+    padding: 80px 10%;
+    box-sizing: border-box;
+    background-color: #FBFBFB;
+    font-family: "Avenir Book";
+    font-size: 16px;
+}
+
+.info {
+    display: none;
+    margin: 80px 0 0 0;
+}
+.serviceDescription{
+    display: flex;
+    align-items: center;
+    min-height: 410px;
+}
+.serviceText{
+    width: 50%;
+    text-align: left;
+    padding: 0 48px;
+    box-sizing: border-box;
+}
+.serviceImg{
+   width: 50%;
+   box-sizing: border-box;
+}
+.serviceImg img{
+    width: 80%;
+   margin-left: 10%;
+}
+.visible {
+    display: inherit;
+}

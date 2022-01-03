@@ -1,0 +1,134 @@
+.home{
+    background-color: white;
+}
+.welcome-section{
+    width: 100%;
+    padding: 120px 10% 0 10%;
+    box-sizing: border-box;
+}
+.welcome-info{
+    width: 100%;
+    display: flex;
+}
+.welcome-title{
+    font-size: 80px;
+    color: #212121;
+    font-weight: bold;
+}
+.welcome-text{
+    color:#757575;
+    font-size: 24px;
+    font-weight:250;
+}
+.welcome-info div:first-child{
+    width: 500px;
+    flex-grow: 1;
+}
+.img-left, .img-right{
+    margin: 0 24px;
+    width: 220px;   
+}
+.welcome-info div:nth-child(2){
+    width: 600px;
+    flex-grow: 2;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.img-bottom{
+    width: 220px;   
+    margin-top: 80px ;
+}
+.btn-primary{
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #F79B36;
+    color:white;
+}
+.btn-primary:hover{
+    box-shadow: inset 0 -70px 0 0 #d87509;
+}
+.text-cta{
+    font-size: 14px;
+    margin-top: 0px !important;
+}
+.text-cta strong{
+    color: #F79B36;
+}
+
+.clientes-logos{
+    filter: grayscale(100%);
+    opacity: .8;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.clientes-logos img{
+    height: 80px;
+    margin-top: 24px;
+}
+.clientes-box{
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.intro{
+    display: flex;
+    padding: 120px 10% 120px 10%;
+}
+.img1{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fpexels-roberto-nickson-3082341.jpg?alt=media&token=191570c2-da70-4ef1-9e7f-84952b54dc45");
+    width: 252px;
+    height: 184px;
+    background-position: center;
+    background-size: cover;
+    margin: 12px;
+}
+.img2{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fpexels-ketut-subiyanto-4126724.jpg?alt=media&token=a779aa76-07e9-4390-8340-567a1a3dbe82");
+    width: 369px;
+    height: 246px;
+    background-position: center;
+    background-size: cover;
+    margin: 12px;
+}
+.img3{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fpexels-karolina-grabowska-4195400.jpg?alt=media&token=0c4192e5-46a9-490c-8108-71c87fb20674");
+    width: 284px;
+    height: 184px;
+    background-position: center;
+    background-size: cover;
+    margin: 12px;
+}
+.img4{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fpexels-tranmautritam-69432.jpg?alt=media&token=10c43c1d-6f2e-43ed-be69-d15d39709f82");
+    width: 194px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    margin: 12px;
+}
+.first-box{
+    display: flex;
+    align-items: flex-end;
+}
+.scnd-box{
+    display: flex;
+    padding-left: 48px;
+}
+.box-img{
+    width: 50%;
+}
+
+.text-intro{
+    width: 50%;
+    font-size: 18px;
+    color:#757575;
+    font-weight: lighter;
+    font-family: "Avenir Book";
+    padding: 0 48px;
+    box-sizing: border-box;
+}

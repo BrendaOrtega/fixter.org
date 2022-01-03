@@ -1,2 +1,15 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css";
 @import "./components/home/Home.css";
+
+@font-face {
+    font-family: "Avenir Book";
+    src: url("./2022/assets/AvenirLTStd-Book.otf") format("otf"),
+  }
+@font-face {
+    font-family: "Avenir Bold";
+    src: url("./2022/assets/AvenirLTStd-Black.otf") format("otf"),
+}
+
+body h2, h3, h4, p{
+  font-family: "Avenir Book";
+}
