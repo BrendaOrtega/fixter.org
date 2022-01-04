@@ -25,3 +25,35 @@
 .reasonsBox div p{
     margin-top: 8px;
 }
+.cta{
+    padding: 120px 0 40px 0;
+    text-align: center;
+}
+.cta h2{
+    color:#F2994A;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+
+@media(max-width: 1400px){
+    .reasons{
+        padding: 80px 5%;
+    }
+  
+}
+
+@media(max-width: 960px){
+    .reasons{
+        width: 100%;
+        padding: 40px 5%;
+    }
+    .reasonsBox{
+        flex-wrap: wrap;
+    }
+    .reasonsBox div{
+        width: 300px;
+        flex-grow: 1;
+    }
+}

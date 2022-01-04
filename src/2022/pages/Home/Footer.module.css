@@ -20,6 +20,11 @@
     color:#212121;
     font-weight: bold;
 }
+.mail{
+    font-size: 24px;
+    font-weight: bold;
+    color:#F2994A;
+}
 
 .legals{
     width: 100%;
@@ -34,4 +39,29 @@
 .legals img{
     width: 88px;
     height: 32px;
+}
+
+@media(max-width: 960px){
+    .footer{
+        padding: 40px 5%;
+    }
+    .footerHeader{
+        margin-right: 24px;
+    }
+    .legals{
+        padding: 0 5%;
+    }
+
+}
+
+@media(max-width: 700px){
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .legals{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
 }

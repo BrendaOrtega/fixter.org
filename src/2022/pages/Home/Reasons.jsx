@@ -5,6 +5,7 @@ import styles from "./Reasons.module.css"
 const icon1 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Ficon-sales.svg?alt=media&token=d3d355c4-0255-4f53-b745-0c600cc6a606"
 const icon2 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Ficon2.svg?alt=media&token=41649677-8bf5-46e7-8f67-e3871877e7c4"
 const icon3 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Ficon3.svg?alt=media&token=3228143d-b806-4140-b0fa-0ec3c2361252"
+const send = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fsend.png?alt=media&token=a26d430f-ceac-4517-b78b-5fb15fbf87da"
 
 const Reasons = () => (
 
@@ -29,6 +30,11 @@ const Reasons = () => (
                 <h4>Automatiza tus procesos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam integer nunc orci volutpat laoreet. </p>
             </div>
+        </div>
+        <div className={styles.cta}>
+            <h3>¿Estás listo para empezar?</h3>
+            <h2>Cotiza tu proyecto y trabaja con nosotros</h2>
+            <img src={send} />
         </div>
     </section >
 )

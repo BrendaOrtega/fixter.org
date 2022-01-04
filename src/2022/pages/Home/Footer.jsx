@@ -8,7 +8,7 @@ const Footer = () => (
     <section >
         <div className={styles.footer}>
             <div className={styles.footerHeader}>
-                <p className={styles.legend}>Defining interaction patterns best suited in the context</p>
+                <p className={styles.legend}>¿Tienes alguna duda? ¿Quieres cotizar tu proyecto? <br />Escríbenos a</p>
                 <p className={styles.mail}>brenda@fixter.org</p>
             </div>
             <div className={styles.footerSection}>

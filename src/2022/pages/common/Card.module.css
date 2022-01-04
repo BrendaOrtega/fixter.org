@@ -1,0 +1,31 @@
+.card{
+    width: 600px;
+    flex-grow: 1;
+    min-height: 336px;
+    background-size: cover;
+    background-position: right;
+    text-align: left;
+    padding: 48px;
+    box-sizing: border-box;
+    margin: 24px;
+}
+.tag{
+    background-color: #212121;
+    color:white;
+    font-size: 14px;
+    padding:  8px;
+    border-radius: 4px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.description{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.card div{
+    width: 50%;
+}

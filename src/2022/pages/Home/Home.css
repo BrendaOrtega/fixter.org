@@ -1,9 +1,15 @@
 .home{
     background-color: white;
 }
+.aside{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
 .welcome-section{
     width: 100%;
-    padding: 120px 10% 0 10%;
+    padding: 140px 10% 0 10%;
     box-sizing: border-box;
 }
 .welcome-info{
@@ -26,7 +32,9 @@
 }
 .img-left, .img-right{
     margin: 0 24px;
-    width: 220px;   
+    width: 220px;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
+   
 }
 .welcome-info div:nth-child(2){
     width: 600px;
@@ -40,6 +48,8 @@
 .img-bottom{
     width: 220px;   
     margin-top: 80px ;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
+
 }
 .btn-primary{
     width: 160px;
@@ -75,6 +85,10 @@
     flex-wrap: wrap;
     display: flex;
 }
+
+
+/* Intro section */
+
 .intro{
     display: flex;
     padding: 120px 10% 120px 10%;
@@ -131,4 +145,128 @@
     font-family: "Avenir Book";
     padding: 0 48px;
     box-sizing: border-box;
+}
+
+@media(max-width: 1440px){
+
+    .welcome-info div:first-child{
+        width: 400px;
+        flex-grow: 1;
+    }
+    .img-left, .img-right{
+        margin: 0 24px;
+        width: 180px;   
+    }
+    .img-bottom{
+        width: 180px;   
+        margin-top: 80px ;
+    }
+    .welcome-info div:nth-child(2){
+        width: 400px;
+        flex-grow: 1;
+    }
+    .welcome-section{
+        padding: 140px 10% 0 10%;
+    }
+}
+@media(max-width: 1400px){
+    .welcome-section{
+        padding: 140px 5% 0 5%;
+    }
+    .welcome-title{
+        font-size: 50px;
+        color: #212121;
+        font-weight: bold;
+    }
+    .img-left, .img-right{
+        margin: 0 24px;
+        width: 140px;   
+    }
+    .img-bottom{
+        width: 140px;   
+        margin-top: 60px ;
+    }
+    .welcome-text{
+        font-size: 18px;
+        margin-top: -16px;
+    }
+    .clientes-logos img{
+        height: 56px;
+    }
+    .intro{
+        padding: 80px 5% 80px 5%;
+    }
+    .text-intro{
+        padding: 0 24px;
+    }
+}
+@media(max-width: 960px){
+    .hidden{
+        display: none;
+    }
+    .welcome-title{
+        font-size: 36px;
+        color: #212121;
+        font-weight: bold;
+    }
+    .img-left, .img-right{
+        margin: 0 12px;
+        width: 120px;   
+    }
+    .img-bottom{
+        width: 120px;   
+        margin-top: 60px ;
+    }
+    .welcome-info{
+        justify-content: space-between;
+    }
+    .welcome-text{
+        font-size: 16px;
+    }
+    .clientes-logos img{
+        height: 40px;
+    }
+    .welcome-section{
+        padding: 180px 5% 0 5%;
+    }
+    .intro{
+        flex-wrap: wrap;
+    }.box-img{
+        width: 100%;
+    }
+    
+    .text-intro{
+        width: 100%;
+        padding: 0px;
+        margin-top: 24px;
+    }
+ 
+}
+@media(max-width: 700px){
+    .welcome-info div:nth-child(2){
+        display: none;
+    }
+    .welcome-title{
+        font-size: 64px;
+       
+    } .welcome-text{
+        font-size: 20px;
+    }
+    .welcome-section{
+        padding: 120px 5% 0 5%;
+    }
+    .clientes-logos{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .clientes-box{
+        flex-wrap: nowrap;
+    }
+    .clientes-logos img{
+        height: 24px;
+    }
+    .intro{
+        padding: 40px 5% 40px 5%;
+    }
+ 
 }

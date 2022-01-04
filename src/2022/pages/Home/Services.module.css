@@ -34,3 +34,29 @@
 .visible {
     display: inherit;
 }
+
+@media(max-width: 1400px){
+    .services{
+        padding: 80px 5%;
+    }
+    
+}
+@media(max-width: 960px){
+    .services{
+        padding: 40px 5%;
+    }
+    .serviceDescription{
+       flex-wrap: wrap; 
+    }
+    .serviceText{
+        width: 100%;
+        padding: 24px 8px;
+    }
+    .serviceImg{
+       width: 100%;
+    }
+    .serviceImg img{
+        width: 90%;
+       margin-left: 5%;
+    }
+}

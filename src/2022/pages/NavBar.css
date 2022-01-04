@@ -7,6 +7,9 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #E8E7E7;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
 }
 .navbar-top img{
     width: 136px;
@@ -15,8 +18,32 @@
     display: flex;
     align-items: center;
 }
+.tabs a{
+    text-decoration: none;
+}
 .navbar-top h3{
     margin: 0 16px;
     font-size: 18px;
     color: #212121;
+    font-weight: 500;
+}
+.navbar-top h3:hover{
+    color: #F79B36;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media(max-width: 1040px){
+    .navbar-top{
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 475px){
+    .hidden{
+        display: none;
+    }
+    .navbar-top h3{
+        font-size: 16px;
+    }
 }
