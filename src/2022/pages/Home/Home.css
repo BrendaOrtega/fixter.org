@@ -1,6 +1,9 @@
 .home{
     background-color: white;
 }
+.home a{
+    text-decoration: none;
+}
 .aside{
     display: flex;
     align-items: center;
@@ -51,13 +54,7 @@
     filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.25));
 
 }
-.btn-primary{
-    width: 160px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #F79B36;
-    color:white;
-}
+
 .btn-primary:hover{
     box-shadow: inset 0 -70px 0 0 #d87509;
 }
@@ -71,14 +68,16 @@
 
 .clientes-logos{
     filter: grayscale(100%);
-    opacity: .8;
     justify-content: space-between;
     margin: 50px 0;
+    
 }
 .clientes-logos img{
     height: 80px;
+    opacity: .4;
     margin-top: 24px;
 }
+
 .clientes-box{
     width: 100%;
     justify-content: space-between;
@@ -94,7 +93,7 @@
     padding: 120px 10% 120px 10%;
 }
 .img1{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fpexels-roberto-nickson-3082341.jpg?alt=media&token=191570c2-da70-4ef1-9e7f-84952b54dc45");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fimg2-pexels.jpg?alt=media&token=8e449a1c-4f91-4537-9191-9fa559a031f2");
     width: 252px;
     height: 184px;
     background-position: center;
@@ -145,6 +144,9 @@
     font-family: "Avenir Book";
     padding: 0 48px;
     box-sizing: border-box;
+}
+.text-intro h2{
+    font-weight: bold;
 }
 
 @media(max-width: 1440px){
@@ -267,6 +269,30 @@
     }
     .intro{
         padding: 40px 5% 40px 5%;
+        text-align: center;
+    }
+    .img1{
+        width: 126px;
+        height: 92px;
+    }
+    .img2{
+        width: 184px;
+        height: 123px;
+    }
+    .img3{
+        width: 142px;
+        height: 92px;
+    }
+    .img4{
+        width: 97px;
+        height: 72px;
+    }
+    .first-box{
+        justify-content: center;
+    }
+    .scnd-box{
+        justify-content: center;
+
     }
  
 }

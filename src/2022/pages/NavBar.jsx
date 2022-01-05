@@ -30,13 +30,16 @@ const NavBar = () => {
                     }
                     : { transition: "all .3s" }
             }>
-            <img src={logo} alt="fixter logo" />
+            <Link to="/2022">
+                <img src={logo} alt="fixter logo" />
+            </Link>
             <div className='tabs'>
-                <h3 className="hidden">Servicios</h3>
                 <Link to="/2022/portafolio">
                     <h3>Portafolio</h3>
                 </Link>
-                <h3>Contacto</h3>
+                <Link to="/2022/contacto">
+                    <h3>Contacto</h3>
+                </Link>
             </div>
         </section>
 

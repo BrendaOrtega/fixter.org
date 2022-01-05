@@ -1,5 +1,5 @@
 .card{
-    width: 600px;
+    width: 500px;
     flex-grow: 1;
     min-height: 336px;
     background-size: cover;
@@ -28,4 +28,12 @@
 }
 .card div{
     width: 50%;
+}
+
+@media(max-width: 700px){
+    .card{
+        background-position: center;
+        margin: 12px 0px;
+        padding: 24px;
+    }
 }

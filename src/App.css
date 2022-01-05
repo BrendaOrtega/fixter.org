@@ -10,6 +10,9 @@
     src: url("./2022/assets/AvenirLTStd-Black.otf") format("otf"),
 }
 
-body h2, h3, h4, p{
+body h2, h3, h4, p, label{
   font-family: "Avenir Book";
+}
+a{
+  text-decoration: none;
 }

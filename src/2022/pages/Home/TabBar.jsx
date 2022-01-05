@@ -27,11 +27,11 @@ const TabBar = ({ onClick }) => {
                     className={classNames(styles.toggleButton, {
                         [styles.active]: active === 2
                     })}>UX/UI Design</button>
-                <button
+                {/* <button
                     onClick={() => handleClick(3)}
                     className={classNames(styles.toggleButton, {
                         [styles.active]: active === 3
-                    })}>Diseño web 3D</button>
+                    })}>Diseño web 3D</button> */}
                 <button
                     onClick={() => handleClick(4)}
                     className={classNames(styles.toggleButton, {

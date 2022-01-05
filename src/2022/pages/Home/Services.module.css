@@ -7,6 +7,9 @@
     font-family: "Avenir Book";
     font-size: 16px;
 }
+.services h2{
+    font-weight: bold;
+}
 
 .info {
     display: none;
@@ -16,6 +19,9 @@
     display: flex;
     align-items: center;
     min-height: 410px;
+}
+.serviceDescription h3{
+    font-weight: 700;
 }
 .serviceText{
     width: 50%;
@@ -59,4 +65,15 @@
         width: 90%;
        margin-left: 5%;
     }
+}
+@media(max-width: 960px){
+
+    .serviceDescription{
+       text-align: center; 
+    }  
+    .serviceText{
+       text-align: center;
+       padding: 24px 8px 0 8px;
+    }
+   
 }

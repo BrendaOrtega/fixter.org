@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Routes from './Routes';
 import './App.css';
 import Routes2022 from '2022/2022Routes'

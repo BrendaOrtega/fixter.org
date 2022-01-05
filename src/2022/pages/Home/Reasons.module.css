@@ -14,6 +14,8 @@
     font-weight: bolder;
 }
 .reasonsBox div{
+    width: 300px;
+    flex-grow: 1;
     margin: 0 16px 0;
 }
 .reasonsBox div h4{
@@ -28,6 +30,7 @@
 .cta{
     padding: 120px 0 40px 0;
     text-align: center;
+    cursor: pointer;
 }
 .cta h2{
     color:#F2994A;
@@ -55,5 +58,13 @@
     .reasonsBox div{
         width: 300px;
         flex-grow: 1;
+    }
+}
+@media(max-width: 700px){
+    .reasonsBox h3{
+        font-size: 24px;
+    }
+    .reasons{
+        text-align: center;
     }
 }
