@@ -24,18 +24,20 @@
     flex-grow: 1;
 }
 .footer a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .footerSection a{
     color: #666666;
     text-decoration: none;
     transition: all 1s ease;
     cursor: pointer;
+    text-decoration: none !important;
 }
 .footerMedia a{
     color: #666666;
     font-size: 24px;
     margin: 0 12px;
+    text-decoration: none !important;
 }
 .legend{
     font-size: 24px;
@@ -63,6 +65,18 @@
     width: 88px;
     height: 32px;
 }
+.legals a{
+    color: #666666;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.legals a:hover, .footerSection a:hover{
+    color: #F2994A;
+
+}
+
 
 @media(max-width: 960px){
     .footer{

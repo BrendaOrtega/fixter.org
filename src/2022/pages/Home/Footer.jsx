@@ -21,6 +21,9 @@ const Footer = () => (
                 <Link to="/2022/portafolio">
                     <p>Portafolio</p>
                 </Link>
+                <Link to="politicas-de-privacidad">
+                    <p>Política de privacidad</p>
+                </Link>
                 <Link to="/2022/contacto">
                     <p>Contacto</p>
                 </Link>
@@ -43,8 +46,10 @@ const Footer = () => (
         </div>
         <div className={styles.legals}>
             <img src={logo} alt="logo" />
-            <p>Política de privacidad</p>
-            <p>Terminos y condiciones</p>
+
+            {/* <Link to="politicas-de-privacidad">
+                <p>Terminos y condiciones</p>
+            </Link> */}
             <p>© 2021 Copyright Fixter</p>
         </div>
     </section >
