@@ -6,12 +6,34 @@ import Services from "./Home/Services"
 import Reasons from "./Home/Reasons"
 import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom"
+import { useSpring, animated } from 'react-spring'
+
 
 const img1 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fwc1.png?alt=media&token=85d8312f-4e38-4ddc-aabb-ff49f5e4c555"
 const img2 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fwc2.png?alt=media&token=f882bf99-2c15-4200-bcb9-c9504cbbf5e1"
 const img3 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fwc3.png?alt=media&token=9a37d7fb-0207-4410-b5fc-d434f65b28b2"
 
 const Home = () => {
+    const styles = useSpring({
+        // loop: { reverse: true },
+        from: { transform: `translate3d(0,20%,0)`, },
+        to: { transform: `translate3d(0,-3%,0)`, },
+        config: {
+            duration: 3000,
+        },
+        delay: 1000,
+    })
+
+    const styles2 = useSpring({
+        // loop: { reverse: true },
+        from: { transform: `translate3d(0,-20%,0)`, },
+        to: { transform: `translate3d(0,3%,0)`, },
+        config: {
+            duration: 3000,
+        },
+        delay: 1000,
+    })
+
     React.useEffect(() => {
         window.scrollTo({
             top: 0,
@@ -20,8 +42,6 @@ const Home = () => {
         });
     }, [])
     return (
-
-
         <section className='home'>
             <section className='aside'>
                 <div className='welcome-section'>
@@ -40,9 +60,9 @@ const Home = () => {
                         </Fade>
                         <Fade>
                             <div>
-                                <img className='img-left' src={img1} alt="Welcome part 1" loading="lazy" />
-                                <img className='img-bottom' src={img2} alt="Welcome part 2" loading="lazy" />
-                                <img className='img-right' src={img3} alt="Welcome part 3" loading="lazy" />
+                                <animated.img style={styles} className='img-left' src={img1} alt="Welcome part 1" loading="lazy" />
+                                <animated.img style={styles2} className='img-bottom' src={img2} alt="Welcome part 2" loading="lazy" />
+                                <animated.img style={styles} className='img-right' src={img3} alt="Welcome part 3" loading="lazy" />
                             </div>
                         </Fade>
                     </div>
