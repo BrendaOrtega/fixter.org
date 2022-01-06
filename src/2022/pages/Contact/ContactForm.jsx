@@ -54,7 +54,7 @@ export const Contacto = ({ onSave, errors, onChangeMessage, name, email, tel, ms
                                         </div>
                                         <div >
                                             <label className={styles.label}>Teléfono <span>*</span></label>
-                                            <input className={styles.inp} value={tel} onChange={onChangeMessage} type="tel" name="tel" placeholder="55 555 55 55" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico" />
+                                            <input className={styles.inp} value={tel} onChange={onChangeMessage} type="number" name="tel" placeholder="55 555 55 55" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico" />
                                             <p className="help-block text-danger"></p>
                                         </div>
                                     </div>

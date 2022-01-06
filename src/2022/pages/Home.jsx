@@ -48,8 +48,8 @@ const Home = () => {
                     <div className='welcome-info'>
                         <Fade>
                             <div>
-                                <h1 className='welcome-title'>Impulsa el crecimiento de tu negocio con nosotros</h1>
-                                <p className='welcome-text'>Resuelve los desafíos de tu negocio con tecnología</p>
+                                <h1 className='welcome-title'>Impulsa el crecimiento de tu empresa con nosotros</h1>
+                                <p className='welcome-text'>Resuelve los desafíos de tu empresa con tecnología</p>
                                 <Link to="/contacto">
                                     <Button text="Contactar" />
                                 </Link>

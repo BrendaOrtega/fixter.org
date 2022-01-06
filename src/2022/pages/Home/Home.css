@@ -63,7 +63,7 @@
     margin-top: 0px !important;
 }
 .text-cta strong{
-    color: #F79B36;
+    color: #B76216;
 }
 
 .clientes-logos{
@@ -274,18 +274,22 @@
     .img1{
         width: 126px;
         height: 92px;
+        margin: 6px;
     }
     .img2{
         width: 184px;
         height: 123px;
+        margin: 6px;
     }
     .img3{
         width: 142px;
         height: 92px;
+        margin: 6px;
     }
     .img4{
         width: 97px;
         height: 72px;
+        margin: 6px;
     }
     .first-box{
         justify-content: center;
@@ -294,5 +298,7 @@
         justify-content: center;
 
     }
- 
+    .text-intro{
+        font-size: 16px;
+    }
 }
