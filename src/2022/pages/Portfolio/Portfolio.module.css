@@ -1,5 +1,5 @@
 .portfolio{
-    padding: 190px 10%;
+    padding: 190px 10% 80px 10%;
 }
 .header {
     font-size: 56px;
@@ -14,7 +14,7 @@
 
 @media(max-width: 700px){
     .portfolio{
-        padding: 160px 5%;
+        padding: 160px 5% 80px 5%;
     } 
     .header {
         font-size: 36px;

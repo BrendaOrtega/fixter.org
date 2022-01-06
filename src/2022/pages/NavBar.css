@@ -19,7 +19,7 @@
     align-items: center;
 }
 .tabs a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .navbar-top h3{
     margin: 0 16px;

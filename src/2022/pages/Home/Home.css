@@ -2,7 +2,7 @@
     background-color: white;
 }
 .home a{
-    text-decoration: none;
+    text-decoration: none !important;;
 }
 .aside{
     display: flex;
