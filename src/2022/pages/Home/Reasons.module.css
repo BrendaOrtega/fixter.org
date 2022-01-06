@@ -85,6 +85,12 @@
     .reasons{
         text-align: center;
     }
+    .cta h2{
+        font-size: 24px;
+    }
+    .cta h3{
+        font-size: 18px;
+    }
     .cta img{
         width: 240px;
         height: auto;
