@@ -74,6 +74,7 @@
 }
 .clientes-logos img{
     height: 80px;
+    width: auto;
     opacity: .4;
     margin-top: 24px;
 }

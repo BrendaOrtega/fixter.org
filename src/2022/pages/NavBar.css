@@ -13,6 +13,7 @@
 }
 .navbar-top img{
     width: 136px;
+    height: auto;
 }
 .tabs{
     display: flex;

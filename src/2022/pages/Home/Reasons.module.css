@@ -18,6 +18,10 @@
     flex-grow: 1;
     margin: 0 16px 0;
 }
+.reasonsBox img{
+    width: 80px;
+    height: 80px;
+}
 .reasonsBox div h4{
     margin-top: 8px;
     margin-bottom: 0px;
@@ -38,6 +42,11 @@
     margin-top: 0px;
     margin-bottom: 48px;
 }
+.cta img{
+    width: 360px;
+    height: auto;
+}
+
 
 
 @media(max-width: 1400px){
@@ -66,5 +75,9 @@
     }
     .reasons{
         text-align: center;
+    }
+    .cta img{
+        width: 240px;
+        height: auto;
     }
 }
