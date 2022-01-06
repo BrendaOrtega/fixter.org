@@ -17,9 +17,9 @@ const Home = () => {
     const styles = useSpring({
         // loop: { reverse: true },
         from: { transform: `translate3d(0,20%,0)`, },
-        to: { transform: `translate3d(0,-3%,0)`, },
+        to: { transform: `translate3d(0,-2%,0)`, },
         config: {
-            duration: 3000,
+            duration: 2000,
         },
         delay: 1000,
     })
@@ -27,9 +27,9 @@ const Home = () => {
     const styles2 = useSpring({
         // loop: { reverse: true },
         from: { transform: `translate3d(0,-20%,0)`, },
-        to: { transform: `translate3d(0,3%,0)`, },
+        to: { transform: `translate3d(0,2%,0)`, },
         config: {
-            duration: 3000,
+            duration: 2000,
         },
         delay: 1000,
     })
