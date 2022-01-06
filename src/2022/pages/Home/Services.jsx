@@ -4,7 +4,7 @@ import TabBar from './TabBar'
 import Fade from 'react-reveal/Fade';
 
 import styles from "./Services.module.css"
-const service1 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fservice1.png?alt=media&token=e9172220-627d-4bc3-b302-00572e8d3e90"
+const service1 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fsustitute.jpg?alt=media&token=b8b0e9eb-9c32-4f43-9d4f-0677884a7949"
 const service2 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fappss.png?alt=media&token=9238654f-b80a-4b94-80e0-0adfeda05537"
 const service3 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fproyecto-3.png?alt=media&token=3f922eee-2c92-4aa2-90bb-1d14905681b9"
 const service5 = "https://firebasestorage.googleapis.com/v0/b/camp-92fe8.appspot.com/o/Images%2Fservicio-6.png?alt=media&token=db2355d6-4414-48ed-965f-fc379e2312ee"
